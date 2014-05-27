@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Peón cloaquista</field>
+            <field name='code'>1</field>
+            <field name='type_of_income'>J</field>
+       </record>  
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Sereno</field>
+            <field name='code'>2</field>
+            <field name='type_of_income'>J</field>
+       </record>  
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Peón común y canchero</field>
+            <field name='code'>3</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Peón práctico</field>
+            <field name='code'>4</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial de hierro</field>
+            <field name='code'>5</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial albañil</field>
+            <field name='code'>5</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial de montaje</field>
+            <field name='code'>5</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial de tendido</field>
+            <field name='code'>5</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial de empalme</field>
+            <field name='code'>5</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial de empalme</field>
+            <field name='code'>5</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial colocador</field>
+            <field name='code'>5</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial colocador</field>
+            <field name='code'>6</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Medio oficial colocador</field>
+            <field name='code'>7</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Chofer de camión</field>
+            <field name='code'>7</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial de montaje</field>
+            <field name='code'>7</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial albañil</field>
+            <field name='code'>8</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial hierro</field>
+            <field name='code'>8</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial de tendido</field>
+            <field name='code'>8</field>
+            <field name='type_of_income'>J</field>
+       </record>    
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial camarista</field>
+            <field name='code'>8</field>
+            <field name='type_of_income'>J</field>
+       </record> 
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial colocado</field>
+            <field name='code'>8</field>
+            <field name='type_of_income'>J</field>
+       </record>   
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial madera</field>
+            <field name='code'>9</field>
+            <field name='type_of_income'>J</field>
+       </record>      
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial frentista y finalista</field>
+            <field name='code'>9</field>
+            <field name='type_of_income'>J</field>
+       </record>      
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial de empalme</field>
+            <field name='code'>9</field>
+            <field name='type_of_income'>J</field>
+       </record>      
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Operario calificado	</field>
+            <field name='code'>10</field>
+            <field name='type_of_income'>J</field>
+       </record>      
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial escalerista</field>
+            <field name='code'>10</field>
+            <field name='type_of_income'>J</field>
+       </record>      
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Oficial maquinista	</field>
+            <field name='code'>11</field>
+            <field name='type_of_income'>J</field>
+       </record>      
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Mecánico</field>
+            <field name='code'>12</field>
+            <field name='type_of_income'>J</field>
+       </record>      
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Encargado</field>
+            <field name='code'>51</field>
+            <field name='type_of_income'>J</field>
+       </record>      
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Capataz hormigón</field>
+            <field name='code'>52</field>
+            <field name='type_of_income'>M</field>
+       </record>         
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Capataz de obra</field>
+            <field name='code'>53</field>
+            <field name='type_of_income'>M</field>
+       </record>         
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Capataz general</field>
+            <field name='code'>54</field>
+            <field name='type_of_income'>M</field>
+       </record>         
+       <record model='hr.uy.bps.category.construction'>
+            <field name='category'>Destajista</field>
+            <field name='code'>90</field>
+            <field name='type_of_income'>D</field>
+       </record>
+    
+    </data>
+</openerp>

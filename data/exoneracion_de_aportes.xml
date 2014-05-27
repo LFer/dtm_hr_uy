@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>1</field>
+            <field name='exemption_description'>Se aplica exoneración de la empresa</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>2</field>
+            <field name='exemption_description'>Reconversión laboral (Art. 330, Ley 16.320)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>3</field>
+            <field name='exemption_description'>Se aplica exon. Máx. (hasta el 6% a partir del 1/7/95) por integrar la industria manufacturera (Ley 16.697) (VIGENTE HASTA 30/06/2007)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>4</field>
+            <field name='exemption_description'>No se aplica exoneración de industria manufacturera (Ley 16.697) (VIGENTE HASTA 30/06/2007)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>5</field>
+            <field name='exemption_description'>Se aplica exon. intermedia o mixta por integrar parcialmente actividades manufactureras (Ley 16697 y Decreto Reglamentario.) (VIGENTE HASTA 30/06/2007)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>6</field>
+            <field name='exemption_description'>Exento de aportes excepto Seguro de Salud (Art. 4 Lit. C Ley 16.565)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>7</field>
+            <field name='exemption_description'>Exoneración de aportes patronales Ley 16.873 del 01/10/97 (NO VIGENTE ART.90Ley 18.083)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>9</field>
+            <field name='exemption_description'>No tiene exoneración de aportes</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>10</field>
+            <field name='exemption_description'>Se aplica exoneración máxima sector transporte de cargas o transporte colectivo de pasajeros de líneas urbanas, suburbanas e interurbanas, taxis y remises (Ley 17243 del 29/6/00, Dec. 245/00, Dec.401/00 y modifs, Ley 17.345, Dec.200/01, 277/01 y 147/02)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>11</field>
+            <field name='exemption_description'>Se aplica exoneración intermedia o mixta por integrar parcialmente actividades del sector transporte de carga o transporte colectivo de pasajeros de líneas urbanas, suburbanas e interurbanas, taxis y remises (Ley 17243, Dec.245/00 y 401/00 y modifs. Ley 17.345, Dec. 200/01, 277/01 y 147/02)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>14</field>
+            <field name='exemption_description'>Socio cooperativista Exoneración manuf. máx. Socio coop. Act. Emp transport. Emp.Period.Exon.máx.manuf. Coop. Agraria exon. manuf. (VIGENTE HASTA 30/06/2007)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>15</field>
+            <field name='exemption_description'>Socio Coop. Prod. exon. Manuf. Mixta / Emp.period Exon.manuf.mixta/Coop. Agraria exon.manuf.mix. Coop.Agra. exon. transp. Mixta/emp. exon. mixta Transp. y manuf. (VIGENTE HASTA 30/06/2007)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>16</field>
+            <field name='exemption_description'>Dep. de Coop. Prod. con activ. manuf. Máxima /Coop.prod. exon.transp. Máx (VIGENTE HASTA 30/06/2007)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>17</field>
+            <field name='exemption_description'>Dep. Coop. Prod. manuf. Mixta /Coop. De Prod. Exon. Transporte mixta (VIGENTE HASTA 30/06/2007)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>18</field>
+            <field name='exemption_description'>Dependiente de una Cooperativa de Producción</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>19</field>
+            <field name='exemption_description'>Fomento del Empleo – Exoneración total (100%) aporte Pat. Jub. Ley 17.705 (no vigente)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>20</field>
+            <field name='exemption_description'>Fomento del Empleo – Exoneración total aporte Pat. Jub. Trab. Zafral, temporario o por temporada (no vigente)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>21</field>
+            <field name='exemption_description'>Exon. Aporte pat. Func. mantenimiento infraestructura Ferroviaria (ex AFE) (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.exemption.of.contribution'>
+            <field name='exemption_code'>22</field>
+            <field name='exemption_description'>Exoneración Impuesto MEVIR</field>
+        </record>           
+    
+    </data>
+</openerp>

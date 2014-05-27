@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.country'>
+            <field name='country_id'>001</field>
+            <field name='country_code'>Uruguay</field>
+       </record>  
+    </data>
+</openerp>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.accumulation.labor'>
+            <field name='acumulation_code'>1</field>
+            <field name='acumulation_description'>Primera actividad</field>
+       </record>  
+       <record model='hr.uy.accumulation.labor'>
+            <field name='acumulation_code'>2</field>
+            <field name='acumulation_description'>Segunda actividad</field>
+       </record>  
+       <record model='hr.uy.accumulation.labor'>
+            <field name='acumulation_code'>3</field>
+            <field name='acumulation_description'>Tercera actividad</field>
+       </record>  
+       <record model='hr.uy.accumulation.labor'>
+            <field name='acumulation_code'>4</field>
+            <field name='acumulation_description'>Cuarta actividad</field>
+       </record>  
+       <record model='hr.uy.accumulation.labor'>
+            <field name='acumulation_code'>5</field>
+            <field name='acumulation_description'>Quinta actividad</field>
+       </record>  
+       <record model='hr.uy.accumulation.labor'>
+            <field name='acumulation_code'>6</field>
+            <field name='acumulation_description'>Sexta actividad</field>
+       </record>
+    </data>
+</openerp>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>01</field>
+            <field name='functional_code_description'>Patrón Unipersonal</field>
+       </record>
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>02</field>
+            <field name='functional_code_description'>Socio con actividad</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>03</field>
+            <field name='functional_code_description'>Socio sin actividad</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>04</field>
+            <field name='functional_code_description'>Socio cooperativista</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>05</field>
+            <field name='functional_code_description'>Socio/Sucesor/Patrón unipersonal/Cónyuge colaborador con actividad aporta por otra empresa</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>06</field>
+            <field name='functional_code_description'>Director/Administrador con remuneración</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>07</field>
+            <field name='functional_code_description'>Director/Administrador sin remuneración</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>08</field>
+            <field name='functional_code_description'>Síndico con remuneración</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>09</field>
+            <field name='functional_code_description'>Síndico sin remuneración 10 Cónyuge o Concubino/a colaborador/a (Mod. descripción - Vigencia 02/2008)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>12</field>
+            <field name='functional_code_description'>Empleado</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>13</field>
+            <field name='functional_code_description'>Empleado temporario o zafral</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>14</field>
+            <field name='functional_code_description'>Empleado a la orden</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>15</field>
+            <field name='functional_code_description'>Obrero</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>16</field>
+            <field name='functional_code_description'>Obrero temporario o zafral</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>17</field>
+            <field name='functional_code_description'>Obrero a la orden</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>20</field>
+            <field name='functional_code_description'>Cargo político, de particular confianza o cargo electivo (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>21</field>
+            <field name='functional_code_description'>Cesante - percibe subsidio (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>22</field>
+            <field name='functional_code_description'>Cesante - percibe incentivo (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>23</field>
+            <field name='functional_code_description'>Personal en subsidio por enfermedad</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>24</field>
+            <field name='functional_code_description'></field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>21</field>
+            <field name='functional_code_description'>Personal en subsidio por maternidad</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>25</field>
+            <field name='functional_code_description'>Personal en seguro por desempleo</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>26</field>
+            <field name='functional_code_description'>Reserva del cargo (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>27</field>
+            <field name='functional_code_description'>No tributa aportes previsionales al B.P.S</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>28</field>
+            <field name='functional_code_description'>Prácticos. Aporte personal a cargo de Sociedad de Prácticos, Puerto o Corporación Prácticos de Río</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>29</field>
+            <field name='functional_code_description'>Prácticos. Aporte patronal a cargo de Agencia Marítima</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>30</field>
+            <field name='functional_code_description'>Funcionarios de Aeronavegación de Pluna</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>31</field>
+            <field name='functional_code_description'>Personal en Subsidio Transitorio por incapacidad parcial (exclusivo para uso Aseguradoras)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>32</field>
+            <field name='functional_code_description'>Trabajadores extranjeros en régimen de Traslado Temporario</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>33</field>
+            <field name='functional_code_description'>Patrón-Cónyuge/Socio/Director no cotizante de contribuciones especiales al B.P.S</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>34</field>
+            <field name='functional_code_description'>Administrador de empresa unipersonal o sociedad de hecho (por cese de patrón)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>35</field>
+            <field name='functional_code_description'>Personal con contrato de práctica laboral</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>36</field>
+            <field name='functional_code_description'>Personal con becas de trabajo</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>37</field>
+            <field name='functional_code_description'>Personal con contrato de aprendizaje</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>38</field>
+            <field name='functional_code_description'>Personal con contrato de aprendizaje simple</field>
+       </record> 
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>40</field>
+            <field name='functional_code_description'>Personal con pasantía laboral. No cotizante de contribuciones especiales al B.P.S.</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>41</field>
+            <field name='functional_code_description'>Obrero a Domicilio</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>42</field>
+            <field name='functional_code_description'>Tallerista</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>43</field>
+            <field name='functional_code_description'>Ayudante de Tallerista</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>46</field>
+            <field name='functional_code_description'>Socio/Sucesor/Patrón Unipersonal/Cónyuge Colaborador con act., aporta únicamente computo especial</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>47</field>
+            <field name='functional_code_description'>Cargo electivo/Ministro de Estado/Miembro de Org. del Art.220, opta por la asignación de Pasividad (art.102 Ley 16.134 del 20/09/1990) (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>48</field>
+            <field name='functional_code_description'>Trabajador extranjero en Zona Franca. No cotizante de contribuciones especiales al BPS</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>49</field>
+            <field name='functional_code_description'>Personal jornalero no estable de la estiba</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>50</field>
+            <field name='functional_code_description'>Sucesor con actividad</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>51</field>
+            <field name='functional_code_description'>Sucesor sin actividad</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>52</field>
+            <field name='functional_code_description'>Miembro Honorario. Junta Electoral, Médicos y Odontólogos Salud Pública y Docentes Honorarios Facultad de Odontología (Per.1921 a 1941) (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>53</field>
+            <field name='functional_code_description'>Funcionario Dirección Nacional de Arquitectura del M.T.O.P. (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>54</field>
+            <field name='functional_code_description'>Profesionales del deporte</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>55</field>
+            <field name='functional_code_description'>Trabajadores Packing</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>56</field>
+            <field name='functional_code_description'>Personal en Subsidio Transitorio, amparado por BPS</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>57</field>
+            <field name='functional_code_description'>Adscriptos a Presidencia de la República (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>58</field>
+            <field name='functional_code_description'>Régimen de retiro incentivado (Ley 17930) (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>60</field>
+            <field name='functional_code_description'>Personal de Embajada</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>61</field>
+            <field name='functional_code_description'>Personal de Embajada</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>63</field>
+            <field name='functional_code_description'>Actividades Comunitarias comprende Dec. 231/03 y 274/05 y Ley 18240 apoyo Inserción Laboral</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>64</field>
+            <field name='functional_code_description'>Trabajadores panaderos y de catering eventuales (RD44-33/2004 y 2-23/2005 y 5-2/2009)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>65</field>
+            <field name='functional_code_description'>Bancos del Estado, personal contratado Ley 17.556 sin aportes BPS (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>66</field>
+            <field name='functional_code_description'>Becarios y Pasantes en la Administración Pública (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>67</field>
+            <field name='functional_code_description'>Funcionario del Ministerio de Defensa y/o Interior, no incluido en FONASA (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>68</field>
+            <field name='functional_code_description'>Cargo político o particular confianza del Ministerio de Defensa y/o Interior, no incluido en FONASA (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>69</field>
+            <field name='functional_code_description'>No tributa aportes CESS jubilatorias, tributa CESS destinadas a SNIS (Caja Bancaria, Profesional y Notarial)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>70</field>
+            <field name='functional_code_description'>Categoría 1 (Capitán, Jefe de Máq.) Personal de la pesca "remunerado a la parte"</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>71</field>
+            <field name='functional_code_description'>Categoría 2 (1° Oficial, Maquinista, Patrón) Personal de la pesca rem. "a la parte"</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>72</field>
+            <field name='functional_code_description'>Categoría 3 (2° Oficial , 2°Pat.,2° Máq.,Com. Telegr) Personal de la pesca rem. "a la parte"</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>73</field>
+            <field name='functional_code_description'>Categoría 4 (3° Oficial, 3° Maquinista, 1° Electricista, Frigorista, 3er. Patrón) Personal de la pesca remunerado "a la parte"</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>74</field>
+            <field name='functional_code_description'>Categoría 5 (4° Oficial, 2° Electricista, 4° Maquinista ) Personal de la pesca remunerado "a la parte”</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>75</field>
+            <field name='functional_code_description'>Categoría 6 (Cocinero, Engrasador, Marinero, Limpiador, Ayudante de cocina, Contramaestre, 1° y 2° Mecánico) Personal de la pesca remunerado "a la parte"</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>76</field>
+            <field name='functional_code_description'>Docente de Enseñanza Privada (No vigente)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>77</field>
+            <field name='functional_code_description'>Jubilado beneficiario SNIS (Aseguradoras, Caja Profesional, Notarial y Bancaria)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>78</field>
+            <field name='functional_code_description'>En comisión, beneficiario al SNIS (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>79</field>
+            <field name='functional_code_description'>Trabajador Objetivo Empleo, Programa MTSS</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>80</field>
+            <field name='functional_code_description'>Personal en subsidio (Caja Bancaria, Profesional y Notarial)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>81</field>
+            <field name='functional_code_description'>Personal en subsidio (Caja Bancaria, Profesional y Notarial)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>82</field>
+            <field name='functional_code_description'>Trabajador de Industria y Comercio incorporado a Caja Bancaria Ley 18.396</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>83</field>
+            <field name='functional_code_description'>Subsidio especial de inactividad compensada</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>84</field>
+            <field name='functional_code_description'>Régimen de Retiro Incentivado (Ley 17930) sin aporte al Seguro de Salud (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>85</field>
+            <field name='functional_code_description'>Personal Policial Ejecutivo (exclusivamente para Caja Policial)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>86</field>
+            <field name='functional_code_description'>Personal Policial de Apoyo (exclusivamente para Caja Policial)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>87</field>
+            <field name='functional_code_description'>Becarios y Pasantes en la Administración Pública con derecho al FONASA (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>88</field>
+            <field name='functional_code_description'>Escribanos</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>89</field>
+            <field name='functional_code_description'>Profesionales</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>90</field>
+            <field name='functional_code_description'>En comisión, no beneficiario de SNIS (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>91</field>
+            <field name='functional_code_description'>Personal Excedentario (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>92</field>
+            <field name='functional_code_description'>Titulares Servicios Personales no Profesionales (APORTACIÓN 11)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>93</field>
+            <field name='functional_code_description'>Cuidadoras de INAU (Alta cod. Vigencia 12/2011) (excl.usivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>94</field>
+            <field name='functional_code_description'>Contrato laboral Inc. 02 a 15 Administración Central (Alta cód. Vigencia 01/2011) (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.functional.link'>
+            <field name='functional_code_link'>95</field>
+            <field name='functional_code_description'>Pasivos nal.2° art.1° Ley 18731, Aportes SNIS (Alta cód. Vigencia 07/2012)</field>
+       </record>  
+       
+    </data>
+</openerp>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>1</field>
+            <field name='termination_description'>Voluntario</field>
+       </record>
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>2</field>
+            <field name='termination_description'>Despido</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>3</field>
+            <field name='termination_description'>Fallecimiento</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>4</field>
+            <field name='termination_description'>Termino de Contrato</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>5</field>
+            <field name='termination_description'>Jubilación</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>8</field>
+            <field name='termination_description'>Baja por cambio de titular, fusión, escisión de empresas o rotación de personal entre empresas según acuerdo registrado ante el Ministerio de Trabajo y Seguridad Social</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>10</field>
+            <field name='termination_description'>Término de mandato (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>11</field>
+            <field name='termination_description'>Cese por motivos reglamentarios(docentes) (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>12</field>
+            <field name='termination_description'>Cese por edad (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>13</field>
+            <field name='termination_description'>Cese por mala conducta</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>15</field>
+            <field name='termination_description'>Fallecimiento en acto directo (EXCLUSIVAMENTE PARA CAJA POLICIAL)</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>22</field>
+            <field name='termination_description'>Cesante. Inicio sub. por incapacidad física T o P y/o jubilación por incapacidad física</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>23</field>
+            <field name='termination_description'>Cesante - Inicia cobro Incentivo (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>31</field>
+            <field name='termination_description'>Cese de Subsidio</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>32</field>
+            <field name='termination_description'>Cese de Incentivo (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>33</field>
+            <field name='termination_description'>Cese de comisión (exclusivamente aportación Civil)</field>
+       </record>  
+       <record model='hr.uy.bps.termination'>
+            <field name='termination_code'>50</field>
+            <field name='termination_description'>Otros motivos (exclusivamente aportación Civil)</field>
+       </record>  
+       
+    
+    
+    </data>
+</openerp>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>1</field>
+            <field name='description_of_labor_relation'>Socio</field>
+       </record>  
+    
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>2</field>
+            <field name='description_of_labor_relation'>Socio industrial</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>3</field>
+            <field name='description_of_labor_relation'>Socio capitalista</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>4</field>
+            <field name='description_of_labor_relation'>Socio comanditado</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>5</field>
+            <field name='description_of_labor_relation'>Socio comanditario</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>6</field>
+            <field name='description_of_labor_relation'>Patrono unipersonal</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>7</field>
+            <field name='description_of_labor_relation'>Tesorero</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>8</field>
+            <field name='description_of_labor_relation'>Administrador de unipersonal</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>10</field>
+            <field name='description_of_labor_relation'>Administrador de S.A.</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>11</field>
+            <field name='description_of_labor_relation'>Director</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>12</field>
+            <field name='description_of_labor_relation'>Sindico</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>13</field>
+            <field name='description_of_labor_relation'>Apoderado</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>14</field>
+            <field name='description_of_labor_relation'>Cónyuge colaborador</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>15</field>
+            <field name='description_of_labor_relation'>Presidente</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>16</field>
+            <field name='description_of_labor_relation'>Vice –presidente</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>17</field>
+            <field name='description_of_labor_relation'>Ascendiente-descendiente de titular rural</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>18</field>
+            <field name='description_of_labor_relation'>Hermano de titular rural</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>19</field>
+            <field name='description_of_labor_relation'>Secretario</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>20</field>
+            <field name='description_of_labor_relation'>Administrador</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>21</field>
+            <field name='description_of_labor_relation'>Vocal</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>22</field>
+            <field name='description_of_labor_relation'>Socio fundador</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>23</field>
+            <field name='description_of_labor_relation'>Suplente</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>24</field>
+            <field name='description_of_labor_relation'>Liquidador de sociedad</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>30</field>
+            <field name='description_of_labor_relation'>Empleado y obrero dependiente</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>31</field>
+            <field name='description_of_labor_relation'>Representante</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>32</field>
+            <field name='description_of_labor_relation'>Fideicomitente</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>33</field>
+            <field name='description_of_labor_relation'>Fiduciario</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>34</field>
+            <field name='description_of_labor_relation'>Beneficiario</field>
+       </record>  
+       <record model='hr.uy.bps.labor.relations'>
+            <field name='code_of_labor_relation'>35</field>
+            <field name='description_of_labor_relation'>Adm. sociedad y asociaciones agrarias de resp. Ltda</field>
+       </record> 
+    
+    </data>
+</openerp>

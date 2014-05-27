@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <record model='hr.uy.bps.marital.status'>
+            <field name='marital_status_code'>1</field>
+            <field name='marital_status_description'>Soltero/a</field>
+        </record>
+         
+         <record model='hr.uy.bps.marital.status'>
+            <field name='marital_status_code'>2</field>
+            <field name='marital_status_description'>Casado/a</field>
+        </record>
+
+        <record model='hr.uy.bps.marital.status'>
+            <field name='marital_status_code'>3</field>
+            <field name='marital_status_description'>Divorciado/a</field>
+        </record>
+
+        <record model='hr.uy.bps.marital.status'>
+            <field name='marital_status_code'>4</field>
+            <field name='marital_status_description'>Union libre</field>
+        </record>
+
+        <record model='hr.uy.bps.marital.status'>
+            <field name='marital_status_code'>5</field>
+            <field name='marital_status_description'>Viudo/a</field>
+        </record>
+
+ 
+         
+         
+    </data>
+</openerp>

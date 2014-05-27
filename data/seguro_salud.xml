@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>1</field>
+            <field name='health_insurance_description'>Beneficiarios con hijos sin cónyuge o concubino a cargo</field>
+       </record>
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>2</field>
+            <field name='health_insurance_description'>Con afiliación mutual por otra empresa con hijos sin cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>3</field>
+            <field name='health_insurance_description'>Seguro Convencional</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>4</field>
+            <field name='health_insurance_description'>Otro*</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>5</field>
+            <field name='health_insurance_description'>Acumulación de actividades con hijos menores/discapacitado a cargo **</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>6</field>
+            <field name='health_insurance_description'>Empleado en subsidio (enfermedad, maternidad, desempleo)</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>7</field>
+            <field name='health_insurance_description'>Empleado en subsidio a cargo del Seguro Convencional o Caja de Auxilio</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>8</field>
+            <field name='health_insurance_description'>Empleado amparado al Banco de Seguros del Estado ***</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>9</field>
+            <field name='health_insurance_description'>Contribuyente no beneficiario de afiliación mutual. Ejs: Socios de sociedades personales, patronos de unipersonal, con más de un empleado, sin cuota mutual por cumplir menos de 13 jornales o percibir menos de 1,25 BPC</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>10</field>
+            <field name='health_insurance_description'>Contribuyente rural hasta 500 hás., con hijos sin cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>11</field>
+            <field name='health_insurance_description'>Afiliación Mutual por Convenio</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>12</field>
+            <field name='health_insurance_description'>Cobertura por MSP - Decreto 231/2003</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>14</field>
+            <field name='health_insurance_description'>Afiliados sin beneficios de actividad</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>15</field>
+            <field name='health_insurance_description'>Beneficiarios sin hijos sin cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>16</field>
+            <field name='health_insurance_description'>Beneficiarios con hijos con cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>17</field>
+            <field name='health_insurance_description'>Beneficiarios sin hijos con cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>18</field>
+            <field name='health_insurance_description'>Contribuyente rural hasta 500 has sin hijos sin cónyuge o concubino a cargo.</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>19</field>
+            <field name='health_insurance_description'>Contribuyente rural hasta 500 has con hijos y cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>20</field>
+            <field name='health_insurance_description'>Contribuyente rural hasta 500 has sin hijos con cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>21</field>
+            <field name='health_insurance_description'>Socios vitalicios con hijos sin cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>22</field>
+            <field name='health_insurance_description'>Socios vitalicios sin hijos sin cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>23</field>
+            <field name='health_insurance_description'>Socios vitalicios con hijos y cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>24</field>
+            <field name='health_insurance_description'>Socios vitalicios sin hijos con cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>25</field>
+            <field name='health_insurance_description'>Acumulación de actividades, sin hijos a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>26</field>
+            <field name='health_insurance_description'>Acumulación de actividades con hijos y cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>27</field>
+            <field name='health_insurance_description'>Acumulación de actividades sin hijos con cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>28</field>
+            <field name='health_insurance_description'>Con afiliación mutual por otra empresa, sin hijos sin cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>29</field>
+            <field name='health_insurance_description'>Con afiliación mutual por otra empresa con hijos y cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>30</field>
+            <field name='health_insurance_description'>Con afiliación mutual por otra empresa sin hijos con cónyuge o concubino a cargo</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>31</field>
+            <field name='health_insurance_description'>Afiliación mutual con hijos a cargo sin cony/conc. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>32</field>
+            <field name='health_insurance_description'>Afiliación mutual Sin hijos a cargo sin cony/conc. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>33</field>
+            <field name='health_insurance_description'>Afiliación mutual Con hijos a cargo con cony/conc. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>34</field>
+            <field name='health_insurance_description'>Afiliación mutual Sin hijos a cargo con cony/conc. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>35</field>
+            <field name='health_insurance_description'>Afiliación mutual por otra empresa con hijos sin cony/conc. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>36</field>
+            <field name='health_insurance_description'>Afiliación mutual por otra empresa sin hijos sin cony/conc. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>37</field>
+            <field name='health_insurance_description'>Afiliación mutual por otra empresa con hijos con cony/conc. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>38</field>
+            <field name='health_insurance_description'>Afiliación mutual por otra empresa sin hijos con cony/conc. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>39</field>
+            <field name='health_insurance_description'>Empleado en subsidio. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>40</field>
+            <field name='health_insurance_description'>Contribuyente no beneficiario afiliación mutual. Aporte gradual</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>41</field>
+            <field name='health_insurance_description'>Empleado amparado a BSE. Aporte gradual 42 Servicios personales sin SNIS con prestaciones actividad (Alta cód. vigencia 01/2012)</field>
+       </record>  
+       <record model='hr.uy.bps.health.insurance'>
+            <field name='health_insurance_code'>99</field>
+            <field name='health_insurance_description'>Tributa SNS por Servicio Personal</field>
+       </record>  
+       </data>
+</openerp>

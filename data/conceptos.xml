@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>1</field>
+            <field name='concept_description'>Monto imponible mensual</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>2</field>
+            <field name='concept_description'>Aguinaldo</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>3</field>
+            <field name='concept_description'>Complemento por laudo/pago de haberes posteriores al cese *</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>5</field>
+            <field name='concept_description'>Monto Imponible Adicional IRPF</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>6</field>
+            <field name='concept_description'>Retroactividad Monto Imponible Adicional IRPF</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>7</field>
+            <field name='concept_description'>Partidas con aporte patronal jubilatorio gradual</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>8</field>
+            <field name='concept_description'>Partidas exclusivas de Contribuciones Especiales de Seguridad Social</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>9</field>
+            <field name='concept_description'>Complemento por laudo de partidas con aporte patronal jubilatorio gradual</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>11</field>
+            <field name='concept_description'>Rectificación que suma monto imponible mensual</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>12</field>
+            <field name='concept_description'>Rectificación que suma aguinaldo</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>13</field>
+            <field name='concept_description'>Rectificación que suma complemento por laudo</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>15</field>
+            <field name='concept_description'>Rectificación que suma Monto Imponible Adicional IRPF</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>16</field>
+            <field name='concept_description'>Rectificación que suma retroactividad Monto Imponible Adicional IRPF</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>17</field>
+            <field name='concept_description'>Suma partida gravada con aporte patronal gradual</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>18</field>
+            <field name='concept_description'>Rectificación que suma partidas exclusivas de Contribuciones Especiales de Seguridad Social</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>19</field>
+            <field name='concept_description'>Suma complemento por laudo de partidas con aporte patronal gradual</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>21</field>
+            <field name='concept_description'>Rectificación que resta monto imponible mensual</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>22</field>
+            <field name='concept_description'>Rectificación que resta aguinaldo</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>23</field>
+            <field name='concept_description'>Rectificación que resta complemento por laudo</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>25</field>
+            <field name='concept_description'>Rectificación que resta Monto Imponible Adicional IRPF</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>26</field>
+            <field name='concept_description'>Rectificación que resta retroactividad Monto Imponible Adicional IRPF</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>27</field>
+            <field name='concept_description'>Rectificación que resta partidas exclusivas de Contribuciones Especiales de Seguridad Social</field>
+       </record> 
+       <record model='hr.uy.bps.concept'>
+            <field name='concept_code'>29</field>
+            <field name='concept_description'>Resta complemento por laudo de partidas con aporte patronal gradual</field>
+       </record> 
+       
+    </data>
+</openerp>

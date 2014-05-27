@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>1</field>
+            <field name='description_of_type_of_taxpayer'>Propetario individual o empresa Unipersonal</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>26</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con hasta 5 dependientes con cobertura médica</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio) </field>
+            <field name='code_type_of_taxpayer'>31</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con hasta 5 depentientes sin cobertuda médica </field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>26</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con un dependiente e integrante con actividad de una sociedad comercial </field>
+        </record>
+        
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>29</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con un dependiente e integrante sin de una sociedad comercial </field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>02</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad de Responsabilidad Limitada</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>03</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad Anónima</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>04</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad de hecho </field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>05</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad Colectiva </field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>06</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad Comandita </field>
+       </record> 
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>06</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad Comandita </field>
+       </record> 
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>07</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad de capital e Industria </field>
+       </record>   
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>08</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad Civil</field>
+       </record>   
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>09</field>
+            <field name='description_of_type_of_taxpayer'>Asociación </field>
+       </record> 
+         
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>10</field>
+            <field name='description_of_type_of_taxpayer'>Cooperativa de Consumo </field>
+       </record>   
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>11</field>
+            <field name='description_of_type_of_taxpayer'>Cooperativa de Ahorro y Crédito no incluidas en Caja Bancaria</field>
+       </record> 
+          
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>12</field>
+            <field name='description_of_type_of_taxpayer'>Cooperativa de Producción</field>
+       </record> 
+       
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>13</field>
+            <field name='description_of_type_of_taxpayer'>Sucursal Empresa Extranjera</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>14</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad de Fomento Rural</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>15</field>
+            <field name='description_of_type_of_taxpayer'>Cooperativa Agropecuaria</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>16</field>
+            <field name='description_of_type_of_taxpayer'>Organismo Paraestatal</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>17</field>
+            <field name='description_of_type_of_taxpayer'>Sucesión con dependientes</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>18</field>
+            <field name='description_of_type_of_taxpayer'>Organizaciones Sociales sin Personería Jurídica</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>19</field>
+            <field name='description_of_type_of_taxpayer'>Cooperativa de Vivienda y Ayuda Mutua</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>20</field>
+            <field name='description_of_type_of_taxpayer'>Fundaciones, Corporaciones</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>21</field>
+            <field name='description_of_type_of_taxpayer'>Edificio en Propiedad Horizontal, Consorcio</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'></field>
+            <field name='description_of_type_of_taxpayer'>Turf con Personal Dependiente</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>23</field>
+            <field name='description_of_type_of_taxpayer'>Mutualista</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>24</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad Accidental</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>25</field>
+            <field name='description_of_type_of_taxpayer'>Seguros Convencionales</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>27</field>
+            <field name='description_of_type_of_taxpayer'>Casas Bancarias y otras empresas incluidas en Caja Bancaria</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>36</field>
+            <field name='description_of_type_of_taxpayer'>Cooperativas incluidas en Caja Bancaria</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>32</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con más de un dependiente, “monotributo”, sin cuota mutual</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>33</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con un dependiente, “monotributo”, sin cuota mutual</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>34</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con un dep., “monotributo”, con cuota mutual (titular y cónyuge)</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>35</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con un dep., “monotributo”, con cuota mutual (titular o cónyuge)</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>37</field>
+            <field name='description_of_type_of_taxpayer'>Grupo de Interés Económico</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>40</field>
+            <field name='description_of_type_of_taxpayer'>Cooperativa Social</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>47</field>
+            <field name='description_of_type_of_taxpayer'>Fideicomiso</field>
+       </record>
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>41</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal sin dependientes, sin cuota mutual</field>
+       </record>
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>42</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Constructora Unipersonal sin personal administrativo, con hasta 5 dependientes en obra</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>43</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal sin dependientes, “monotributo”, sin cuota mutual</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>44</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal sin dep., “monotributo”, con cuota mutual (titular y cónyuge)</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>45</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal sin dep., “monotributo”, con cuota mutual (titular o cónyuge)</field>
+       </record>
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>46</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal sin dependientes e integrante con actividad de una sociedad</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>50</field>
+            <field name='description_of_type_of_taxpayer'>Sucesión sin dependientes</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>51</field>
+            <field name='description_of_type_of_taxpayer'>Vendedor de Diarios</field>
+       </record>
+              
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>52</field>
+            <field name='description_of_type_of_taxpayer'>Turf sin dependientes</field>
+       </record>
+         
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>53</field>
+            <field name='description_of_type_of_taxpayer'>Personal de Stud + 8%</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>55</field>
+            <field name='description_of_type_of_taxpayer'>Personal de Embajadas</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>56</field>
+            <field name='description_of_type_of_taxpayer'>Chofer con automóvil 57 Unipersonal Monotributo Mides 58 Sociedad de Hecho Monotributo Mides</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>70</field>
+            <field name='description_of_type_of_taxpayer'>Sucesión sin dependientes, con exoneración y/o servicios bonificados</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>71</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal sin dep. con cuota mutual con exoneración y/o serv. bonificados</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>72</field>
+            <field name='description_of_type_of_taxpayer'>Soc. con contrato sin dep., con exon., servicios bonif. o aporten por rem. real</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>73</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal sin dep., sin cuota mutual con exoneración y/o serv. bonificados</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>74</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad de Hecho sin dep. con exoneración y/o servicios bonificados</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>81</field>
+            <field name='description_of_type_of_taxpayer'>Unipersonal con cónyuge colaborador sin dependientes</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>91</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Unipersonal sin dependientes con cuota mutual</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>92</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad de Responsabilidad Limitada</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>94</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad de Hecho</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>95</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad Colectiva</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>96</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad en Comandita</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>97</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad de Capital e Industria</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>01</field>
+            <field name='description_of_contribution'>IC (Industria y Comercio)</field>
+            <field name='code_type_of_taxpayer'>98</field>
+            <field name='description_of_type_of_taxpayer'>Sociedad Civil</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>61</field>
+            <field name='description_of_type_of_taxpayer'>Org. Público con tasa aporte pat. jub. 7.5%</field>
+       </record>
+                      
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>62</field>
+            <field name='description_of_type_of_taxpayer'>Org. Público con tasa aporte pat. jub. 19.5%</field>
+       </record>
+                              
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>63</field>
+            <field name='description_of_type_of_taxpayer'>Org. Público con tasa aporte pat. jub. 19.5%</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>64</field>
+            <field name='description_of_type_of_taxpayer'>Org. Público con tasa aporte pat. jub. 16.5%</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>66</field>
+            <field name='description_of_type_of_taxpayer'>Org. Público (Elvio Fernández, Ley 5143 del 28/07/14) aporte patronal jubilatorio 19.5% e IRP Pat. 1%</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>67</field>
+            <field name='description_of_type_of_taxpayer'>Org. Púb, BPS Aporte subsidio y Licencia y Aguinaldo Construcción y Trabajo a Domicilio</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>68</field>
+            <field name='description_of_type_of_taxpayer'>Org. Púb. BPS – Subsidio Transitorio por Incapacidad Parcial</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>69</field>
+            <field name='description_of_type_of_taxpayer'>Org. Púb. – Bancos (BROU, BHU y BSE)</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>75</field>
+            <field name='description_of_type_of_taxpayer'>Org. Púb. - IMM Aporte Pat. Jub Ley 18083 art. 89</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>76</field>
+            <field name='description_of_type_of_taxpayer'>Org. Púb. con tasa de aporte pat. Jub. 19,5%, y aporte al SNIS</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>2</field>
+            <field name='description_of_contribution'>CI (Civil)</field>
+            <field name='code_type_of_taxpayer'>77</field>
+            <field name='description_of_type_of_taxpayer'>Org. Pub. con tasa aporte pat. Jub.19.5% Juntas Departamentales</field>
+       </record>
+       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>01</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Rural</field>
+       </record>
+                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>02</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Contratista Rural</field>
+       </record>
+                       
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>03</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Rural S.A.</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>04</field>
+            <field name='description_of_type_of_taxpayer'>Rural Usuario de Servicios **</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>06</field>
+            <field name='description_of_type_of_taxpayer'>Sucesión Empresa Rural</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>07</field>
+            <field name='description_of_type_of_taxpayer'>Sucesión Empresa Contratista</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>08</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Contratista Rural S.A.</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>09</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Apicultora c/dependientes</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>10</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Rural sin dependientes</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>11</field>
+            <field name='description_of_type_of_taxpayer'>Empresa contratista Rural s/dependiente</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>12</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Rural S.A. s/dependientes</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>13</field>
+            <field name='description_of_type_of_taxpayer'>Sucesión Empresa Rural s/dependientes</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>14</field>
+            <field name='description_of_type_of_taxpayer'>Sucesión Empresa Contratista s/dependientes</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>15</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Contratista Rural S.A. s/dependientes</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>3</field>
+            <field name='description_of_contribution'>RU (Rural)</field>
+            <field name='code_type_of_taxpayer'>16</field>
+            <field name='description_of_type_of_taxpayer'>Empresa Apicultora s/dependientes</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>01</field>
+            <field name='description_of_type_of_taxpayer'>Administración total (titular)</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>10</field>
+            <field name='description_of_type_of_taxpayer'>Regularización por Administración (titular)</field>
+       </record>                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>17</field>
+            <field name='description_of_type_of_taxpayer'>Obra de Menor Cuantía</field>
+       </record>                          
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>20</field>
+            <field name='description_of_type_of_taxpayer'>Parte de Administración de Subcontratista (titular)</field>
+       </record>                           
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>22</field>
+            <field name='description_of_type_of_taxpayer'>Parte de IR (contratista)</field>
+       </record>                            
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>23</field>
+            <field name='description_of_type_of_taxpayer'>Art.7 e IR (contratista)</field>
+       </record>                            
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>31</field>
+            <field name='description_of_type_of_taxpayer'>Contrato total privado (titular)</field>
+       </record>                            
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>38</field>
+            <field name='description_of_type_of_taxpayer'>IRPF Empresa Contratista de construcción</field>
+       </record>                            
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>39</field>
+            <field name='description_of_type_of_taxpayer'>IRPF excepto contratistas de construcción</field>
+       </record>                            
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>50</field>
+            <field name='description_of_type_of_taxpayer'>Contrato total público por avance certificado</field>
+       </record>                            
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>51</field>
+            <field name='description_of_type_of_taxpayer'>Contrato sobre real planillas</field>
+       </record>                                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>55</field>
+            <field name='description_of_type_of_taxpayer'>Administración Delegada</field>
+       </record>                                
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>4</field>
+            <field name='description_of_contribution'>CT (Construcción)</field>
+            <field name='code_type_of_taxpayer'>60</field>
+            <field name='description_of_type_of_taxpayer'>Contribuyente sin obra (de uso exclusivo interno de B.P.S.)</field>
+       </record>                                   
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>5</field>
+            <field name='description_of_contribution'>Notarial</field>
+            <field name='code_type_of_taxpayer'>78</field>
+            <field name='description_of_type_of_taxpayer'>Instituto Prev. Social/Aseguradora - Pasivos</field>
+       </record>                                         
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>5</field>
+            <field name='description_of_contribution'>Notarial</field>
+            <field name='code_type_of_taxpayer'>79</field>
+            <field name='description_of_type_of_taxpayer'>Organismo o Empresa que tributa aportes solo al SNIS</field>
+       </record>                                         
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>6</field>
+            <field name='description_of_contribution'>Bancaria</field>
+            <field name='code_type_of_taxpayer'>78</field>
+            <field name='description_of_type_of_taxpayer'>Instituto Prev. Social/Aseguradora - Pasivos</field>
+       </record>                               
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>6</field>
+            <field name='description_of_contribution'>Notarial</field>
+            <field name='code_type_of_taxpayer'>79</field>
+            <field name='description_of_type_of_taxpayer'>Organismo o empresa que tributa aportes solo al SNIS</field>
+       </record>                                        
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>11</field>
+            <field name='description_of_contribution'>Titulares Servicios Personales no Profesionales y Profesionales</field>
+            <field name='code_type_of_taxpayer'>78</field>
+            <field name='description_of_type_of_taxpayer'>Instituto Prev. Social/Aseguradora - Pasivos</field>
+       </record>                                         
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>11</field>
+            <field name='description_of_contribution'>Titulares Servicios Personales no Profesionales y Profesionales</field>
+            <field name='code_type_of_taxpayer'>79</field>
+            <field name='description_of_type_of_taxpayer'>Organismo o empresa que tributa aportes solo al SNIS</field>
+       </record>                               
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>11</field>
+            <field name='description_of_contribution'>Titulares Servicios Personales no Profesionales y Profesionales</field>
+            <field name='code_type_of_taxpayer'>80</field>
+            <field name='description_of_type_of_taxpayer'>Servicios Personales Profesionales y No Profesionales aporte mínimo CPE</field>
+       </record>  
+       
+       
+                                      
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>48</field>
+            <field name='description_of_contribution'>Servicio doméstico</field>
+            <field name='code_type_of_taxpayer'>00</field>
+            <field name='description_of_type_of_taxpayer'>Servicio doméstico</field>
+       </record>                                     
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>7</field>
+            <field name='description_of_contribution'>Trabajo a Domicilio (TD)</field>
+            <field name='code_type_of_taxpayer'></field>
+            <field name='description_of_type_of_taxpayer'></field>
+       </record>                                     
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>8</field>
+            <field name='description_of_contribution'>Escolar</field>
+            <field name='code_type_of_taxpayer'></field>
+            <field name='description_of_type_of_taxpayer'></field>
+       </record>                                     
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>12</field>
+            <field name='description_of_contribution'>Militar</field>
+            <field name='code_type_of_taxpayer'></field>
+            <field name='description_of_type_of_taxpayer'></field>
+       </record>                                     
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>13</field>
+            <field name='description_of_contribution'>Policial</field>
+            <field name='code_type_of_taxpayer'></field>
+            <field name='description_of_type_of_taxpayer'></field>
+       </record>                                     
+       <record model='hr.uy.bps.contributions.and.taxpayer.type'>
+            <field name='contribution_code'>14</field>
+            <field name='description_of_contribution'>Unión Postal</field>
+            <field name='code_type_of_taxpayer'></field>
+            <field name='description_of_type_of_taxpayer'></field>
+       </record>                                                                   
+    </data>
+</openerp>

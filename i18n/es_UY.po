@@ -1,0 +1,1130 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* hr_uy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20140206-002714\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-08 10:57+0000\n"
+"PO-Revision-Date: 2014-04-14 14:38-0300\n"
+"Last-Translator: LFer <lferreira@datamatic.com.uy>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: hr_uy
+#: field:res.company,construction_masonry_and_concrete:0
+msgid "Hormigón y albanileria"
+msgstr "Concrete and masonry"
+
+#. module: hr_uy
+#: field:hr.employee,health_card_id:0
+msgid "Número de carne de salud"
+msgstr "health card id"
+
+#. module: hr_uy
+#: field:hr.uy.bps.category.rural,worker_description:0
+msgid "Descripción de trabajador"
+msgstr "Description of employee"
+
+#. module: hr_uy
+#: field:res.company,mtss_group:0
+msgid "Grupo de MTSS"
+msgstr "MTSS Group"
+
+#. module: hr_uy
+#: field:hr.employee.family,employee_id:0
+msgid "Empleado Asociado"
+msgstr "Associated employee"
+
+#. module: hr_uy
+#: selection:res.company,terrestrial_transport:0
+msgid "Internacional"
+msgstr "International"
+
+#. module: hr_uy
+#: field:hr.employee.family,date_of_birth:0
+msgid "Fecha de Nacimiento"
+msgstr "Date of birth"
+
+#. module: hr_uy
+#: field:res.company,bulk_sales:0
+msgid "Venta al por mayor"
+msgstr "Wholesale"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_department
+msgid "Department"
+msgstr "Department"
+
+#. module: hr_uy
+#: field:hr.uy.bps.category.construction,category:0
+msgid "Categoría"
+msgstr "Category"
+
+#. module: hr_uy
+#: field:hr.employee,bps_category_general:0
+#: model:ir.model,name:hr_uy.model_hr_uy_category
+msgid "Categoría "
+msgstr "Category"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_functional_link_form
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_functional_link_form
+msgid "Vínculo funcional"
+msgstr "Functional link"
+
+#. module: hr_uy
+#: field:hr.employee.family,country_id:0
+msgid "Pais del Documento"
+msgstr "Country  of ID"
+
+#. module: hr_uy
+#: selection:res.company,terrestrial_transport:0
+msgid "Pasajeros"
+msgstr "Passengers"
+
+#. module: hr_uy
+#: field:res.company,construction:0
+msgid "Construcción"
+msgstr "Construction"
+
+#. module: hr_uy
+#: view:hr.uy.bps.contributions.and.taxpayer.type:0
+msgid "Configuración BPS"
+msgstr "BPS configuration"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_country
+msgid "Paises "
+msgstr "countries "
+
+#. module: hr_uy
+#: view:hr.employee:0
+#: view:hr.employee.family:0
+msgid "Familiares"
+msgstr "Family"
+
+#. module: hr_uy
+#: field:hr.uy.bps.type.of.remuneration,description_of_remuneration:0
+msgid "Descripción de remuneración "
+msgstr "Description remuneration"
+
+#. module: hr_uy
+#: field:hr.employee,bps_functional_link:0
+#: view:hr.uy.bps.functional.link:0
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_functional_link
+msgid "Vinculo funcional"
+msgstr "Functional link"
+
+#. module: hr_uy
+#: field:hr.section,department_id:0
+msgid "Departamento"
+msgstr "Department"
+
+#. module: hr_uy
+#: field:hr.employee,account_type:0
+msgid "Tipo de cuenta"
+msgstr "Account type"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_section
+msgid "hr.section"
+msgstr "hr.section"
+
+#. module: hr_uy
+#: view:hr.uy.bps.marital.status:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_marital_status_form
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_marital_status
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_marital_status_form
+msgid "Estado civil"
+msgstr "marital status"
+
+#. module: hr_uy
+#: field:hr.locals,local_description:0
+msgid "Descripción del local"
+msgstr "Description of the local"
+
+#. module: hr_uy
+#: field:hr.uy.bps.exemption.of.contribution,exemption_description:0
+msgid "Descripción de exoneración"
+msgstr "Description of exemption"
+
+#. module: hr_uy
+#: view:hr.uy.bps.category.rural:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_category_rural_form
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_category_rural
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_category_rural_form
+msgid "Trabajadores rurales"
+msgstr "Rural workers"
+
+#. module: hr_uy
+#: sql_constraint:hr.employee:0
+msgid "Ya existe un empleado con el numero de empleado ingresado!"
+msgstr "There is already an employee with employee number entered!"
+
+#. module: hr_uy
+#: field:hr.uy.bps.contributions.and.taxpayer.type,code_type_of_taxpayer:0
+msgid "Código de tipo de contribuyente"
+msgstr "Code of taxpayer"
+
+#. module: hr_uy
+#: selection:hr.employee,pay_type:0
+msgid "Jornada"
+msgstr "Daylabor"
+
+#. module: hr_uy
+#: field:hr.employee,second_surname:0
+msgid "Segundo apellido"
+msgstr "Second surname"
+
+#. module: hr_uy
+#: field:hr.uy.accumulation.labor,acumulation_description:0
+msgid "Descripción de acomulación"
+msgstr "Description of acomulacion"
+
+#. module: hr_uy
+#: field:hr.employee.family,polling_card:0
+msgid "Credencial Civica"
+msgstr "polling card"
+
+#. module: hr_uy
+#: field:hr.department,section_ids:0
+msgid "Secciónes"
+msgstr "Sections"
+
+#. module: hr_uy
+#: field:res.company,payment_calendar:0
+msgid "Calendario de pagos"
+msgstr "Payment schedule"
+
+#. module: hr_uy
+#: view:hr.employee:0
+msgid "Datos BPS, MTSS"
+msgstr "BPS, MTSS info"
+
+#. module: hr_uy
+#: field:hr.uy.bps.marital.status,marital_status_description:0
+msgid "Descripción de estado civil"
+msgstr "Descritption of marital status"
+
+#. module: hr_uy
+#: field:hr.employee,health_card_expiration_date:0
+msgid "Valido hasta"
+msgstr "Valid until"
+
+#. module: hr_uy
+#: field:hr.employee,bps_health_insurance:0
+#: view:hr.uy.bps.health.insurance:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_health_insurance_form
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_health_insurance
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_health_insurance_form
+msgid "Seguro de salud"
+msgstr "Health insurance"
+
+#. module: hr_uy
+#: view:hr.uy.bps.type.of.remuneration:0
+msgid "Tipo de remuneracion"
+msgstr "Type of remuneration"
+
+#. module: hr_uy
+#: view:hr.uy.bps.termination:0
+msgid "Codigo de baja"
+msgstr "Termination code"
+
+#. module: hr_uy
+#: field:res.company,legal_nature:0
+msgid "Naturaleza jurídica "
+msgstr "Legal nature"
+
+#. module: hr_uy
+#: field:hr.employee,account_number:0
+msgid "Número de cuenta"
+msgstr "Account number"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_locals
+msgid "hr.locals"
+msgstr "hr.locals"
+
+#. module: hr_uy
+#: field:hr.employee,date_fired:0
+#, fuzzy
+msgid "Fecha de egreso"
+msgstr "Date of discharge"
+
+#. module: hr_uy
+#: field:res.company,industry_inputs:0
+msgid "Principales materias primas utilizadas"
+msgstr "Main raw materials used"
+
+#. module: hr_uy
+#: field:hr.uy.bps.category,category_code:0
+msgid "Código "
+msgstr "Code"
+
+#. module: hr_uy
+#: view:hr.uy.bps.special.computing:0
+#, fuzzy
+msgid "Computos especiales"
+msgstr "Special computations"
+
+#. module: hr_uy
+#: selection:hr.employee,account_type:0
+#, fuzzy
+msgid "Caja de ahorros"
+msgstr "Savings bank"
+
+#. module: hr_uy
+#: field:hr.uy.bps.labor.relations,code_of_labor_relation:0
+#, fuzzy
+msgid "Código de relación laboral"
+msgstr "Code of employment relation"
+
+#. module: hr_uy
+#: field:hr.employee.family,id_number:0
+msgid "Numero de Documento"
+msgstr "number of document"
+
+#. module: hr_uy
+#: field:res.company,commerce_service:0
+msgid "Comercio o servicio"
+msgstr "Trade or service"
+
+#. module: hr_uy
+#: view:res.company:0
+msgid "Configuracion BPS, BSE y MTSS"
+msgstr "BPS, BSE y MTSS configuration"
+
+#. module: hr_uy
+#: field:hr.uy.bps.legal.nature,code_of_legal_nature:0
+msgid "Código de naturaleza juridíca"
+msgstr "Legal nature code"
+
+#. module: hr_uy
+#: selection:hr.employee.family,gender:0
+msgid "Female"
+msgstr "Female"
+
+#. module: hr_uy
+#: field:hr.employee,name_gen:0
+msgid "Hack"
+msgstr "Hack"
+
+#. module: hr_uy
+#: selection:hr.employee,payment_method:0
+msgid "Deposito a cuenta"
+msgstr "Deposit to account"
+
+#. module: hr_uy
+#: view:hr.employee:0
+msgid "Datos de forma de pago"
+msgstr "Details of payment"
+
+#. module: hr_uy
+#: field:hr.uy.bps.concept,concept_code:0
+msgid "Código de concepto"
+msgstr "Concept Code"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_country_form
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_country_form
+msgid "Países"
+msgstr "Countries"
+
+#. module: hr_uy
+#: field:hr.employee,mtss_sheet:0
+msgid "Hoja MTSS"
+msgstr " MTSS Sheet"
+
+#. module: hr_uy
+#: field:res.company,taxpayer_id:0
+msgid "Tipo de contribuyente"
+msgstr "Type of taxpayer"
+
+#. module: hr_uy
+#: field:hr.locals,company_id:0
+msgid "Compania padre"
+msgstr "Main company"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: hr_uy
+#: field:hr.employee.family,document_type:0
+msgid "Tipo de Documento"
+msgstr "Type of ID"
+
+#. module: hr_uy
+#: field:hr.uy.positions,mtss_code:0
+msgid "Código MTSS"
+msgstr "MTSS code"
+
+#. module: hr_uy
+#: field:hr.uy.bps.category.construction,code:0
+#: view:hr.uy.bps.contributions.and.taxpayer.type:0
+msgid "Código"
+msgstr "Code"
+
+#. module: hr_uy
+#: field:hr.uy.bps.type.of.remuneration,remuneration_code:0
+msgid "Código de remuneración "
+msgstr "Remuneration code"
+
+#. module: hr_uy
+#: field:hr.uy.bps.special.computing,computing_code:0
+msgid "Código de cómputo"
+msgstr "Computing code"
+
+#. module: hr_uy
+#: field:hr.uy.bps.termination,termination_description:0
+msgid "Descripción de baja"
+msgstr "Discharge description"
+
+#. module: hr_uy
+#: field:res.company,mtss_sub_group:0
+msgid "Subgrupo de MTSS"
+msgstr "MTSS subgroup"
+
+#. module: hr_uy
+#: field:hr.locals,local_id:0
+msgid "Local"
+msgstr "Local"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_legal_nature_form
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_legal_nature_form
+msgid "Naturaleza jurídica"
+msgstr "Legal Nature"
+
+#. module: hr_uy
+#: view:hr.uy.bps.category.construction:0
+msgid "Trabajadores de la construccion"
+msgstr "Construction workers"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_contrib_form
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_contrib_form
+msgid "Aportaciones y tipos de contribuyente"
+msgstr "Contributions and types of taxpayers"
+
+#. module: hr_uy
+#: field:hr.section,section:0
+msgid "Seccion"
+msgstr "Section"
+
+#. module: hr_uy
+#: field:hr.uy.bps.exemption.of.contribution,exemption_code:0
+msgid "Código de exoneración"
+msgstr "Exemption code"
+
+#. module: hr_uy
+#: field:hr.uy.bps.category.rural,worker_code:0
+msgid "Código de trabajador"
+msgstr "Worker code"
+
+#. module: hr_uy
+#: field:hr.uy.bps.labor.relations,description_of_labor_relation:0
+msgid "Descripción de relación laboral"
+msgstr "Description of employment relation"
+
+#. module: hr_uy
+#: field:res.company,construction_architecture:0
+msgid "Obra de arquitectura"
+msgstr "Architecture work"
+
+#. module: hr_uy
+#: field:res.company,industry_outputs:0
+#, fuzzy
+msgid "Principal linea de productos elaborados"
+msgstr "Main line of products made"
+
+#. module: hr_uy
+#: field:hr.uy.category,category_id:0
+msgid "Descripcion de categoría "
+msgstr "Category description"
+
+#. module: hr_uy
+#: view:hr.uy.bps.concept:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_concep_form
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_concept
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_concep_form
+msgid "Concepto"
+msgstr "Concept"
+
+#. module: hr_uy
+#: view:hr.uy.mtss.working.subgroups:0
+#: model:ir.actions.act_window,name:hr_uy.action_mtss_working_subgroups_form
+#: model:ir.model,name:hr_uy.model_hr_uy_mtss_working_subgroups
+#: model:ir.ui.menu,name:hr_uy.action_menu_mtss_working_subgroups_form
+msgid "Subgrupos de trabajo"
+msgstr "Sub-working groups"
+
+#. module: hr_uy
+#: view:hr.employee:0
+msgid "Nombre Completo"
+msgstr "Full name"
+
+#. module: hr_uy
+#: field:res.company,judicial_section:0
+msgid "Sección judicial"
+msgstr "Judicial section"
+
+#. module: hr_uy
+#: field:hr.employee,payment_method:0
+msgid "Forma de pago"
+msgstr "Type of payment"
+
+#. module: hr_uy
+#: field:hr.employee,emergency_health_care_provider_user_id:0
+#: field:hr.employee,health_care_provider_user_id:0
+msgid "Número de afiliado"
+msgstr "Number of affiliated"
+
+#. module: hr_uy
+#: view:hr.uy.hours.per.week:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_hours_per_week_form
+#: model:ir.model,name:hr_uy.model_hr_uy_hours_per_week
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_hours_per_week_form
+msgid "Horas semanales"
+msgstr "Hours per week"
+
+#. module: hr_uy
+#: field:hr.employee,autogen_name:0
+msgid "Autogenerado"
+msgstr "self-generated"
+
+#. module: hr_uy
+#: selection:hr.employee.family,gender:0
+msgid "Male"
+msgstr "Male"
+
+#. module: hr_uy
+#: field:hr.uy.bps.contributions.and.taxpayer.type,description_of_contribution:0
+msgid "Descripción de aportación"
+msgstr "Description of contribution"
+
+#. module: hr_uy
+#: view:hr.uy.mtss.working.groups:0
+#: model:ir.actions.act_window,name:hr_uy.action_mtss_working_groups_form
+#: model:ir.model,name:hr_uy.model_hr_uy_mtss_working_groups
+#: model:ir.ui.menu,name:hr_uy.action_menu_mtss_working_groups_form
+msgid "Grupos de trabajo"
+msgstr "Working groups"
+
+#. module: hr_uy
+#: field:res.company,main_activity:0
+msgid "Actividad Principal"
+msgstr "Main activity"
+
+#. module: hr_uy
+#: view:hr.section:0
+msgid "Secciones"
+msgstr "Sections"
+
+#. module: hr_uy
+#: field:hr.section,desc_seccion:0
+msgid "Descripción de sección"
+msgstr "Descrition of section"
+
+#. module: hr_uy
+#: field:hr.uy.bps.health.insurance,health_insurance_code:0
+msgid "Código de seguro de salud"
+msgstr "Health insurance code"
+
+#. module: hr_uy
+#: field:res.company,mtss_id:0
+msgid "Número de MTSS"
+msgstr "MTSS number"
+
+#. module: hr_uy
+#: field:hr.employee,bps_type_of_remuneration:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_type_of_remuneration_form
+#: model:ir.ui.menu,name:hr_uy.Tipo
+#: de Remuneracion
+msgid "Tipo de remuneración"
+msgstr "Type of remuneration"
+
+#. module: hr_uy
+#: field:res.company,bse_id:0
+msgid "Número de BSE"
+msgstr "BSE number"
+
+#. module: hr_uy
+#: field:res.company,contribution_id:0
+msgid "Tipo de contribución"
+msgstr "Type of contribution"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_exemption_of_contribution
+#, fuzzy
+msgid "Exoneracion  de aportes"
+msgstr "Exemption of contributions"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_category_construction
+msgid "Trabajadores de contruccion"
+msgstr "Construction workers"
+
+#. module: hr_uy
+#: field:hr.employee.family,address_home_id:0
+msgid "Domicilio"
+msgstr "Home adress"
+
+#. module: hr_uy
+#: selection:res.company,terrestrial_transport:0
+msgid "Urbano"
+msgstr "Urban"
+
+#. module: hr_uy
+#: field:hr.employee,employee_number:0
+msgid "Número de empleado"
+msgstr "Number of employee"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_category
+msgid "Categoria  de trabajador"
+msgstr "Category of worker"
+
+#. module: hr_uy
+#: view:hr.uy.bps.contributions.and.taxpayer.type:0
+msgid "Tipos de contribuyente"
+msgstr "Types of taxpayers"
+
+#. module: hr_uy
+#: field:hr.employee,second_name:0
+msgid "Segundo nombre"
+msgstr "Middle name"
+
+#. module: hr_uy
+#: field:hr.uy.bps.country,country_id:0
+msgid "Código de pais"
+msgstr "Country code"
+
+#. module: hr_uy
+#: field:hr.uy.mtss.working.subgroups,subgroup:0
+msgid "Subgrupo"
+msgstr "Sub-group"
+
+#. module: hr_uy
+#: selection:hr.employee,payment_method:0
+msgid "Efectivo"
+msgstr "Cash"
+
+#. module: hr_uy
+#: field:hr.employee.family,nationality:0
+#: view:hr.uy.bps.nationality:0
+#: field:hr.uy.bps.nationality,nationality_code:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_nationality_form
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_nationality
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_nationality_form
+msgid "Nacionalidad"
+msgstr "Nationality"
+
+#. module: hr_uy
+#: field:hr.uy.bps.functional.link,functional_code_link:0
+msgid "Código de vinculo funcional"
+msgstr "Code of taxpayer"
+
+#. module: hr_uy
+#: field:res.company,industry:0
+msgid "Industria"
+msgstr "Industry"
+
+#. module: hr_uy
+#: view:res.company:0
+#, fuzzy
+msgid "Datos de industria"
+msgstr "Data of industry"
+
+#. module: hr_uy
+#: field:hr.uy.bps.contributions.and.taxpayer.type,description_of_type_of_taxpayer:0
+msgid "Descripción de tipo de contribuyente"
+msgstr "Description of type of taxpayer"
+
+#. module: hr_uy
+#: field:res.company,retail_sales:0
+msgid "Venta al por menor"
+msgstr "Retail sale"
+
+#. module: hr_uy
+#: field:res.company,construction_engineering:0
+msgid "Obra de ingenieria"
+msgstr "Engineering work"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_special_computing_form
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_special_computing_form
+msgid "Cómputos especiales"
+msgstr "Special computing"
+
+#. module: hr_uy
+#: field:res.company,locals:0
+msgid "unknown"
+msgstr "unknown"
+
+#. module: hr_uy
+#: field:hr.uy.accumulation.labor,acumulation_code:0
+msgid "Código de acumulación"
+msgstr "Accumulation code"
+
+#. module: hr_uy
+#: field:hr.uy.bps.category.construction,type_of_income:0
+msgid "Tipo de ingreso"
+msgstr "Type of income"
+
+#. module: hr_uy
+#: view:hr.uy.bps.gender:0
+#: field:hr.uy.bps.gender,gender:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_gender_form
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_gender
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_gender_form
+msgid "Sexo"
+msgstr "Gender"
+
+#. module: hr_uy
+#: field:res.company,collective_agreement_expiration_date:0
+msgid "Fecha de vencimiento de convenio"
+msgstr "Expiry date of contract"
+
+#. module: hr_uy
+#: field:hr.employee,date_hired:0
+#, fuzzy
+msgid "Fecha de ingreso"
+msgstr "Join date"
+
+#. module: hr_uy
+#: field:hr.uy.positions,position_code:0
+msgid "Código de cargo"
+msgstr "Code of position"
+
+#. module: hr_uy
+#: view:hr.uy.bps.country:0
+msgid "Pais"
+msgstr "Country"
+
+#. module: hr_uy
+#: field:res.company,police_section:0
+msgid "Sección policial"
+msgstr "Police section"
+
+#. module: hr_uy
+#: view:hr.locals:0
+#: view:res.company:0
+msgid "Locales"
+msgstr "Locals"
+
+#. module: hr_uy
+#: field:hr.uy.bps.special.computing,computing_description:0
+msgid "Descripción de cómputo"
+msgstr "Description of computing"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_termination_form
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_termination
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_termination_form
+msgid "Bajas"
+msgstr "Terminations"
+
+#. module: hr_uy
+#: field:hr.employee,pay_type:0
+#: field:res.company,terrestrial_transport:0
+msgid "Tipo de trabajo"
+msgstr "Type of work"
+
+#. module: hr_uy
+#: field:hr.employee,emergency_health_care_provider:0
+msgid "Emergencia medica"
+msgstr "Medical emergency"
+
+#. module: hr_uy
+#: field:hr.uy.category,category_code:0
+msgid "Codigo de categoría "
+msgstr "Code of category"
+
+#. module: hr_uy
+#: field:res.company,transport:0
+msgid "Transporte"
+msgstr "Transportation"
+
+#. module: hr_uy
+#: selection:hr.employee,payment_method:0
+msgid "Cheque"
+msgstr "Paycheck"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: hr_uy
+#: view:hr.uy.accumulation.labor:0
+#: model:ir.model,name:hr_uy.model_hr_uy_accumulation_labor
+#, fuzzy
+msgid "Acumulacion laboral"
+msgstr "Accumulation labor"
+
+#. module: hr_uy
+#: field:hr.employee.family,kinship:0
+msgid "Parentezco"
+msgstr "Kinshinp"
+
+#. module: hr_uy
+#: field:hr.employee,bps_category_construction:0
+#: field:hr.employee,bps_category_rural:0
+msgid "Categoría  de trabajador de construcción"
+msgstr "Category of construction Worker"
+
+#. module: hr_uy
+#: field:hr.uy.bps.contributions.and.taxpayer.type,contribution_code:0
+msgid "Código de aportación"
+msgstr "Contribution code"
+
+#. module: hr_uy
+#: view:hr.employee:0
+#, fuzzy
+msgid "Datos de salud"
+msgstr "Health information"
+
+#. module: hr_uy
+#: field:hr.employee,bps_labor_relations:0
+#: view:hr.uy.bps.labor.relations:0
+#: model:ir.actions.act_window,name:hr_uy.action_bps_labor_relations_form
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_labor_relations
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_labor_relations_form
+msgid "Relaciones laborales"
+msgstr "Labour relations"
+
+#. module: hr_uy
+#: view:hr.employee:0
+msgid "Citizenship & Other Info"
+msgstr "Ciudadanía e información adicional"
+
+#. module: hr_uy
+#: field:res.company,subcontracting:0
+msgid "Subcontrato de"
+msgstr "Subcontract"
+
+#. module: hr_uy
+#: selection:hr.uy.bps.gender,gender:0
+msgid "Masculino"
+msgstr "MaLE"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_employee_family
+msgid "hr.employee.family"
+msgstr "hr.employee.family"
+
+#. module: hr_uy
+#: selection:hr.employee,pay_type:0
+msgid "Mensual"
+msgstr "Monthly"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_contributions_and_taxpayer_type
+msgid "Aportaciones y tipo de contribuyente"
+msgstr "Contributions and type of taxpayer"
+
+#. module: hr_uy
+#: field:hr.employee,work_timetable:0
+#, fuzzy
+msgid "Horario"
+msgstr "Timetable"
+
+#. module: hr_uy
+#: field:hr.employee.family,second_name:0
+msgid "Segundo Nombre"
+msgstr "Second name"
+
+#. module: hr_uy
+#: sql_constraint:hr.employee:0
+msgid "Ya existe un empleado con la credencial ingresada!"
+msgstr "There is already an employee with the credentials entered!"
+
+#. module: hr_uy
+#: field:hr.uy.bps.category,category_description:0
+msgid "Descripción de categoría"
+msgstr "Description of category"
+
+#. module: hr_uy
+#: selection:hr.uy.bps.gender,gender:0
+msgid "Femenino"
+msgstr "Female"
+
+#. module: hr_uy
+#: field:hr.uy.bps.concept,concept_description:0
+msgid "Descripción de concepto"
+msgstr "Descrition of concept"
+
+#. module: hr_uy
+#: view:res.company:0
+msgid "Trabajos de construccion"
+msgstr "Construction work"
+
+#. module: hr_uy
+#: field:hr.employee,country_of_birth:0
+msgid "País de nacimiento"
+msgstr "Country of birth"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_legal_nature
+msgid "Naturaleza juridica"
+msgstr "Legal nature"
+
+#. module: hr_uy
+#: field:hr.employee,family:0
+msgid "Familirares"
+msgstr "Family"
+
+#. module: hr_uy
+#: model:ir.ui.menu,name:hr_uy.menu_mtss_main
+msgid "MTSS"
+msgstr "MTSS"
+
+#. module: hr_uy
+#: field:hr.employee,date_job_start:0
+msgid "En cargo desde"
+msgstr "In position since"
+
+#. module: hr_uy
+#: view:hr.uy.bps.exemption.of.contribution:0
+msgid "Exoneracion de aportes"
+msgstr "Exemption of contributions"
+
+#. module: hr_uy
+#: field:hr.employee,first_name:0
+msgid "Primer nombre"
+msgstr "First name"
+
+#. module: hr_uy
+#: selection:res.company,terrestrial_transport:0
+#, fuzzy
+msgid "Carga"
+msgstr "Cargo"
+
+#. module: hr_uy
+#: model:ir.ui.menu,name:hr_uy.menu_bps_main
+msgid "BPS"
+msgstr "BPS"
+
+#. module: hr_uy
+#: field:res.company,rut_id:0
+msgid "Numero de RUT"
+msgstr "RUT number"
+
+#. module: hr_uy
+#: selection:hr.employee,bps_category_type:0
+msgid "Trabajador construcción"
+msgstr "Construction worker"
+
+#. module: hr_uy
+#: selection:hr.employee,account_type:0
+msgid "Cuenta corriente"
+msgstr "current account"
+
+#. module: hr_uy
+#: selection:res.company,terrestrial_transport:0
+msgid "Interdepartamental"
+msgstr "Interdepartmental"
+
+#. module: hr_uy
+#: field:hr.employee,bps_category_date:0
+msgid "Fecha de categoría "
+msgstr "Category date"
+
+#. module: hr_uy
+#: field:hr.employee.family,second_surname:0
+msgid "Segundo Apellido"
+msgstr "Second surname"
+
+#. module: hr_uy
+#: model:ir.ui.menu,name:hr_uy.menu_hr_uy_bps_root
+msgid "Configuración BPS, MTSS, ASSE"
+msgstr "BPS, MTSS, ASSE configuration"
+
+#. module: hr_uy
+#: field:res.company,collective_agreement:0
+msgid "Convenio Colectivo"
+msgstr "Collective agreement"
+
+#. module: hr_uy
+#: field:hr.employee,credential:0
+msgid "Credencial cívica"
+msgstr "polling card"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_special_computing
+msgid "Computos  especiales"
+msgstr "Special computing"
+
+#. module: hr_uy
+#: selection:hr.employee,bps_category_type:0
+msgid "Trabajador rural"
+msgstr "Rural worker"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_category_construction_form
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_category_construction_form
+msgid "Trabajadores de construcción"
+msgstr "Construction workers"
+
+#. module: hr_uy
+#: view:res.company:0
+msgid "Descripcion de Industria"
+msgstr "Descritpion of industry"
+
+#. module: hr_uy
+#: field:hr.uy.bps.marital.status,marital_status_code:0
+msgid "Código de estado civil"
+msgstr "Marital status code"
+
+#. module: hr_uy
+#: field:hr.uy.mtss.working.groups,group:0
+#: field:hr.uy.mtss.working.subgroups,group:0
+msgid "Grupo"
+msgstr "Group"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_bps_type_of_remuneration
+msgid "Tipo de remuneracion "
+msgstr "Type of remuneration"
+
+#. module: hr_uy
+#: field:hr.uy.bps.health.insurance,health_insurance_description:0
+msgid "Descripción de seguro de  salud"
+msgstr "Description of health insurance"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_accumulation_labor_form
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_accumulation_labor_form
+msgid "Acumulación laboral"
+msgstr "Accumulation of labor"
+
+#. module: hr_uy
+#: field:hr.employee,health_care_provider:0
+#, fuzzy
+msgid "Sociedad Medica"
+msgstr "Medical society"
+
+#. module: hr_uy
+#: field:hr.employee,bps_category_type:0
+msgid "Tipo de categoria"
+msgstr "Type of category"
+
+#. module: hr_uy
+#: field:hr.employee.family,gender:0
+msgid "Gender"
+msgstr "Gender"
+
+#. module: hr_uy
+#: selection:hr.employee,bps_category_type:0
+msgid "Categoría  general"
+msgstr "General category"
+
+#. module: hr_uy
+#: field:hr.uy.positions,position_id:0
+msgid "Descripción de cargo"
+msgstr "Description of position"
+
+#. module: hr_uy
+#: field:hr.employee.family,first_surname:0
+msgid "Primer Apellio"
+msgstr "First name"
+
+#. module: hr_uy
+#: field:hr.employee,country_of_id:0
+msgid "País del documento"
+msgstr "Country of ID"
+
+#. module: hr_uy
+#: field:res.company,bps_id:0
+msgid "Número de BPS"
+msgstr "BPS number"
+
+#. module: hr_uy
+#: field:hr.uy.hours.per.week,hour:0
+msgid "Horas"
+msgstr "Hours"
+
+#. module: hr_uy
+#: view:hr.uy.bps.contributions.and.taxpayer.type:0
+#: field:hr.uy.mtss.working.groups,description:0
+#: field:hr.uy.mtss.working.subgroups,description:0
+msgid "Descripción"
+msgstr "Description"
+
+#. module: hr_uy
+#: view:res.company:0
+msgid "Ventas"
+msgstr "Sales"
+
+#. module: hr_uy
+#: field:hr.employee.family,country_of_birth:0
+msgid "Pais de Nacimiento"
+msgstr "Country of birth"
+
+#. module: hr_uy
+#: field:hr.uy.bps.nationality,nationality_description:0
+msgid "Descripción de nacionalidad"
+msgstr "Description of nationality"
+
+#. module: hr_uy
+#: view:hr.uy.bps.legal.nature:0
+msgid "Naturaleza Juridica"
+msgstr "Legal nature"
+
+#. module: hr_uy
+#: field:hr.employee.family,first_name:0
+msgid "Primer Nombre"
+msgstr "First name"
+
+#. module: hr_uy
+#: field:hr.employee,termination_code:0
+#: field:hr.uy.bps.termination,termination_code:0
+msgid "Código de baja"
+msgstr "Termination code"
+
+#. module: hr_uy
+#: field:hr.employee,first_surname:0
+msgid "Primer apellio"
+msgstr "Fist surname"
+
+#. module: hr_uy
+#: field:hr.uy.bps.legal.nature,description_of_legal_nature:0
+msgid "Descripcion de naturaleza juridíca"
+msgstr "Descritpion of legal nature"
+
+#. module: hr_uy
+#: model:ir.actions.act_window,name:hr_uy.action_bps_exemption_of_contribution_form
+#: model:ir.ui.menu,name:hr_uy.action_menu_bps_exemption_of_contribution_form
+#: field:res.company,exemption_of_contribution:0
+msgid "Exoneración de aportes"
+msgstr "Exemption of contributions"
+
+#. module: hr_uy
+#: field:hr.uy.bps.functional.link,functional_code_description:0
+msgid "Descripción de código funcional"
+msgstr "Description of functional link"
+
+#. module: hr_uy
+#: model:ir.model,name:hr_uy.model_hr_uy_positions
+#, fuzzy
+msgid "Cargos"
+msgstr "Positions"
+
+#. module: hr_uy
+#: selection:hr.employee,account_type:0
+msgid "Otros"
+msgstr "Others"
+
+#. module: hr_uy
+#: field:res.company,start_date_of_activity:0
+msgid "Fecha inicio de actividad"
+msgstr "Start date of activity"
+

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>1</field>
+            <field name='computing_description'>Radiaciones ionizantes - Bonificación 3x2 (Decreto 502/84 de 12/11/84) (ver también códigos 50 y 51)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>2</field>
+            <field name='computing_description'>Exposición permanente al dióxido de silicio.(Decreto 502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>3</field>
+            <field name='computing_description'>Temperaturas de 20º bajo cero. (Decreto 502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>4</field>
+            <field name='computing_description'>Pilotos y copilotos que realicen actividad profesional remunerada, en aeronaves al servicio de empresas nacionales (Decreto 502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>6</field>
+            <field name='computing_description'>Industrias que procesan asbesto. (Decreto 11/92 de 14/1/92)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>7</field>
+            <field name='computing_description'>Personal de Refinería de la Planta ANCAP, técnicos y personal de manten. y lab. (Dec.699/91 de 23/12/91) (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>9</field>
+            <field name='computing_description'>Técnicos profesionales de Casinos Municipales de Montevideo. (Decreto 270/93 de 14/6/93) (EXCLUSIVAMENTE APORTACION CIVIL</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>10</field>
+            <field name='computing_description'>Func. del Serv. de Enfermedades Infectocontagiosas "Dr. José Scosería" (Dec. 520/93 del 24/11/93) (EXCLUSIVAMENTE APORTACION CIVIL</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>11</field>
+            <field name='computing_description'>Controladores de tránsito aéreo.(Decreto 558/93 de 8/12/93). (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>12</field>
+            <field name='computing_description'>Unidad de vigilancia y protección de ANCAP.(Ley 13793 de 24/11/69) (EXCLUSIVAMENTE APORTACION CIVIL (EXCLUSIVAMENTE APORTACION CIVIL</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>13</field>
+            <field name='computing_description'>Personal contratado por Misiones Diplomáticas y Oficinas Consulares de la República en el exterior (incluye Cancilleres). (Ley 15.851 art.75).</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>14</field>
+            <field name='computing_description'>Empleado permanente del Jockey Club Montevideo *</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>15</field>
+            <field name='computing_description'>Empleado por reunión del Jockey Club Montevideo *</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>16</field>
+            <field name='computing_description'>Cuerpo de baile del S.O.D.R.E. (Ley 16.462 art. 93) *** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>20</field>
+            <field name='computing_description'>Docente Enseñanza Primaria(Dec.502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>21</field>
+            <field name='computing_description'>Doc. Enseñanza Secundaria y profesores civiles de los Liceos Militares (Decreto 502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>22</field>
+            <field name='computing_description'>Docente de Educación Técnico Profesional.(Decreto 502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>23</field>
+            <field name='computing_description'>Docente de Educación Física.(Decreto 502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>24</field>
+            <field name='computing_description'>Docente de Instituto de Formación Docente.(Decreto 502/84 de 12/11/84) 25 Doc. Universitario y profesores civiles de las Esc. Militares y la Esc. Nac.de Policía (Dec.502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>26</field>
+            <field name='computing_description'>Docente de Enseñanza Primaria a Sordomudos, Ciegos, Deficitarios Mentales, Irregulares de Carácter y Anormales Psíquicos. (Decreto 502/84 de 12/11/84)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>27</field>
+            <field name='computing_description'>Docentes de Discapacitados del Consejo de Educación Técnico Profesional. (Dec.813/88 de 16/11/88) (EXCLUSIVAMENTE APORTACION CIVIL</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>28</field>
+            <field name='computing_description'>Docentes Escuela de Danza del M.E.C. (Ley 15851 de 24/12/86 Art. 100) **** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>29</field>
+            <field name='computing_description'>Docente Escuela Opera del M.E.C. (Ley 15851 de 24/12/86 Art.100) **** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>30</field>
+            <field name='computing_description'>Docente del Centro de Capacitación y Producción del M.E.C. (Ley 15851 de 24/12/86 Art. 100) **** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>31</field>
+            <field name='computing_description'>Docente Escuela Municipal de Arte Dramático.(Ley 15851 de 24/12/86 Art. 100) **** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>32</field>
+            <field name='computing_description'>Docente Escuela Municipal de Música. (Ley 15851 de 24/12/86 Art. 100) **** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>33</field>
+            <field name='computing_description'>Docente con título o certificado en Casas de la Cultura. (Ley 15851 de 24/12/86 Art. 100) **** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>34</field>
+            <field name='computing_description'>Docente con título o certificado en Biblioteca Estatal. (Ley 15851 de 24/12/86 Art. 100)**** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>35</field>
+            <field name='computing_description'>Docente con título o certificado en Biblioteca Municipal.(Ley 15851 de 24/12/86 Art. 100)**** (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>37</field>
+            <field name='computing_description'>Personal doc.de escuelas rurales que desempeñen func. y se domicilien en la esc. Rural (Dec.563/94 22/12/94 (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>38</field>
+            <field name='computing_description'>Personal de salas de máqs de serv. de dragados y marítima de Adm.Nac.de Puertos (Dec.40/95- 24/1/95 (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>39</field>
+            <field name='computing_description'>Serv. desempeñados por func. turnantes de la Dirección de Alcoholes-ANCAP (Dec.59/95 de 8/2/95) (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>40</field>
+            <field name='computing_description'>Docente civil del Instituto de Adiestramiento Aeronáutico (Decreto 502/84 del 12/11/84) (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>41</field>
+            <field name='computing_description'>Empleados administrativos - Planilla 18 – Sub escalafón Fiscalización y Vigilancia de Sala y Recaudación de Sala de Juegos (excluidos boleteros) de los Casinos Municipales de Montevideo (Dec. 351/96 - 04/09/96) (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>42</field>
+            <field name='computing_description'>Docente con título habilitante en institución no habilitada (se incluyen guarderías, jardines de infantes y docentes en Instituciones Autorizadas, según Decreto Poder Ejecutivo que así lo determine)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>43</field>
+            <field name='computing_description'>Técnicos electricistas y en electrónica de la Dirección General de Infraestructura Aeronáutica (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>44</field>
+            <field name='computing_description'>Trabajadores de centros asistencia Psiq. del MSP, Colonias Etchepare y S.Rossi y Hospital Vilardebo (4x3) Dec.356/05 del 03/10/05 (EXCLUSIVAMENTE APORTACION CIVIL)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>45</field>
+            <field name='computing_description'>Choferes y choferes Cobradores del Transporte Colectivo de pasajeros (CUTCSA) sin aporte asociado. Art.39 Ley 16713</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>46</field>
+            <field name='computing_description'>Trab.de la Central Térmica José Batlle y Ordoñez tengan o no la calidad de funcionarios de UTE</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>47</field>
+            <field name='computing_description'>Trabajadores de la pesca embarcados Categoría 6 (3x2) Decreto 159/2010</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>48</field>
+            <field name='computing_description'>Funcionarios del Sub escalafón ejecutivo art.18 inc. 1ero. y art. 56 de la Ley 18.405</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>49</field>
+            <field name='computing_description'>Funcionarios en transición según lo dispuesto en el art. 38 lit. c) Ley 18.405 (5x4)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>50</field>
+            <field name='computing_description'>Radiaciones ionizantes - Bonificación 4x3 (Dec.20/00,18/00 del 19/01/00 y 103/98 del 24/3/98)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>51</field>
+            <field name='computing_description'>Radiaciones ionizantes-Bonificación 9x8 (Dec.285/98 del 14/10/98)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>52</field>
+            <field name='computing_description'>Trabajadores de la pesca embarcados, Categoría 1 a 5 (4x3). Decreto 159/2010</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>53</field>
+            <field name='computing_description'>Médico Radiólogo – Solo Aportación Policial (2x1)</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>54</field>
+            <field name='computing_description'>Licencia sin goce de sueldo – Solo aportación Policial</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>55</field>
+            <field name='computing_description'>Suspensión de actividad – Solo aportación Policial</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>56</field>
+            <field name='computing_description'>No bonificable. A los efectos de la compatibilidad de pasividad servida por I y C, con actividad remunerada - Ley 18.721</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>47</field>
+            <field name='computing_description'>Compatibilidad Dietas con Pasividad Civil (Ley 15809 del 1/1/1986 art. 136) (EXCLUSIVAMENTE APORTACION CIVIL</field>
+       </record>  
+       <record model='hr.uy.bps.special.computing'>
+            <field name='computing_code'>99</field>
+            <field name='computing_description'>No cumple servicios objeto de un tratamiento diferencial</field>
+       </record>   
+        
+    
+    </data>
+</openerp>

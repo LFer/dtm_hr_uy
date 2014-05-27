@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>60</field>
+            <field name='concept_description'>Profesionales y/o Técnicos de la Actividad Rural</field>
+            <field name='worker_group'>Profesionales</field>
+       </record> 
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>01</field>
+            <field name='concept_description'>Administrador</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>02</field>
+            <field name='concept_description'>Capataz</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>03</field>
+            <field name='concept_description'>Escribiente</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>04</field>
+            <field name='concept_description'>Peón Especializado</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>05</field>
+            <field name='concept_description'>Sereno</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>06</field>
+            <field name='concept_description'>Peón Chacarero</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>07</field>
+            <field name='concept_description'>Menores de 18 años</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>08</field>
+            <field name='concept_description'>Cocinero</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>09</field>
+            <field name='concept_description'>Servicio Doméstico</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>10</field>
+            <field name='concept_description'>Tropero y Peón Jornalero</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>11</field>
+            <field name='concept_description'>Trabajadores de la esquila</field>
+            <field name='worker_group'>Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>12</field>
+            <field name='concept_description'>Peón Común</field>
+            <field name='worker_group'>Ganadería y Agricultura con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>20</field>
+            <field name='concept_description'>Administrador</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>21</field>
+            <field name='concept_description'>Capataz</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>22</field>
+            <field name='concept_description'>Escribiente</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>23</field>
+            <field name='concept_description'>Peón Especializado</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>24</field>
+            <field name='concept_description'>Sereno</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>25</field>
+            <field name='concept_description'>Peón Chacarero</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>26</field>
+            <field name='concept_description'>Peón.</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>27</field>
+            <field name='concept_description'>Menores de 18 años</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>28</field>
+            <field name='concept_description'>Cocinero</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>29</field>
+            <field name='concept_description'>Servicio Doméstico</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>30</field>
+            <field name='concept_description'>Peón Jornalero y Zafral</field>
+            <field name='worker_group'>Granjas con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>40</field>
+            <field name='concept_description'>Administrador</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>41</field>
+            <field name='concept_description'>Capataz</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>42</field>
+            <field name='concept_description'>Escribiente</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>43</field>
+            <field name='concept_description'>Tractorista</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>44</field>
+            <field name='concept_description'>Chacarero</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>45</field>
+            <field name='concept_description'>Peón</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>46</field>
+            <field name='concept_description'>Menores de 18 años</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>47</field>
+            <field name='concept_description'>Cocinero</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>48</field>
+            <field name='concept_description'>Servicio Doméstico</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>49</field>
+            <field name='concept_description'>Peón Zafral</field>
+            <field name='worker_group'>Tambos con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>70</field>
+            <field name='concept_description'>Administrador</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>71</field>
+            <field name='concept_description'>Capataz</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>72</field>
+            <field name='concept_description'>Escribiente</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>73</field>
+            <field name='concept_description'>Maquinista Forestal</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>74</field>
+            <field name='concept_description'>Peón Especializado</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>75</field>
+            <field name='concept_description'>Sereno</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>76</field>
+            <field name='concept_description'>Peón Chacarero</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>77</field>
+            <field name='concept_description'>Tractorista</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>78</field>
+            <field name='concept_description'>Guardabosques</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>79</field>
+            <field name='concept_description'>Peón Común</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>80</field>
+            <field name='concept_description'>Menores de 18 años</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>81</field>
+            <field name='concept_description'>Cocinero</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>82</field>
+            <field name='concept_description'>Servicio Doméstico</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.category.rural'>
+            <field name='worker_code'>83</field>
+            <field name='concept_description'>Peón Jornalero y Zafral</field>
+            <field name='worker_group'>Forestación con alimentación y vivienda</field>
+       </record>  
+    </data>
+</openerp>

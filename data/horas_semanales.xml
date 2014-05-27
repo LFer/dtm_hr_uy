@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>05</field>
+       </record>  
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>10</field>
+       </record>  
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>15</field>
+       </record>  
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>20</field>
+       </record>  
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>25</field>
+       </record>       
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>30</field>
+       </record>       
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>40</field>
+       </record>       
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>44</field>
+       </record>       
+       <record model='hr.uy.hours.per.week'>
+            <field name='hour'>48</field>
+       </record>  
+     
+          </data>
+</openerp>

@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>101</field>
+            <field name='group'>1</field>
+            <field name='description'>Industria Láctea</field>
+       </record>
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>102</field>
+            <field name='group'>1</field>
+            <field name='description'>Distribuidores de Productos Lácteos</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>1</field>
+            <field name='description'>Empaque y envasado de frutas, legumbres y hortalizas. Servicios de frío para frutas y plantas de elaboración de concentrado y otros derivados del citrus</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>1</field>
+            <field name='description'>Producción de hielo y cámaras de frío</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>1</field>
+            <field name='description'>Industria azucarera</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>1</field>
+            <field name='description'>Molinos de arroz</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>601</field>
+            <field name='group'>1</field>
+            <field name='description'>Molinos de Trigo</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>602</field>
+            <field name='group'>1</field>
+            <field name='description'>Fábrica de raciones balanceadas</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>701</field>
+            <field name='group'>1</field>
+            <field name='description'>Dulces, chocolates, golosinas, galletitas, alfajores y otros alimentos</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>702</field>
+            <field name='group'>2</field>
+            <field name='description'>Fideerías</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>703</field>
+            <field name='group'>1</field>
+            <field name='description'>Panificadoras Industriales</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>704</field>
+            <field name='group'>1</field>
+            <field name='description'>Molinos de Yerba</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>705</field>
+            <field name='group'>1</field>
+            <field name='description'>Molinos de café y té</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>801</field>
+            <field name='group'>1</field>
+            <field name='description'>Aceiteras</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>802</field>
+            <field name='group'>1</field>
+            <field name='description'>Grasas y margarinas</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>901</field>
+            <field name='group'>1</field>
+            <field name='description'>Bebidas sin alcohol, aguas y cervezas</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>902</field>
+            <field name='group'>1</field>
+            <field name='description'>Malterías</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1000</field>
+            <field name='group'>1</field>
+            <field name='description'>Licorerías</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1100</field>
+            <field name='group'>1</field>
+            <field name='description'>Bodegas</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1201</field>
+            <field name='group'>1</field>
+            <field name='description'>Panaderías y confiterías con planta de elaboración y Catering Artesanal</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1202</field>
+            <field name='group'>1</field>
+            <field name='description'>Fábricas de Pastas</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1203</field>
+            <field name='group'>1</field>
+            <field name='description'>Catering industrial</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1301</field>
+            <field name='group'>1</field>
+            <field name='description'>Tabacos y cigarrillos</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1302</field>
+            <field name='group'>1</field>
+            <field name='description'>Plantas de acopio y procesamiento de hojas de tabaco</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>9999</field>
+            <field name='group'>1</field>
+            <field name='description'>Residual</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>2</field>
+            <field name='description'>Industria frigorífica</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>2</field>
+            <field name='description'>Industria del chacinado</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>2</field>
+            <field name='description'>Industria avícola</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>2</field>
+            <field name='description'>Carga y descarga de carnes en cámaras, depósitos y puertos</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>3</field>
+            <field name='description'>Captura</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>101</field>
+            <field name='group'>3</field>
+            <field name='description'>Anchoita</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>102</field>
+            <field name='group'>3</field>
+            <field name='description'>Atuneros</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>103</field>
+            <field name='group'>3</field>
+            <field name='description'>Calamaleros</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>104</field>
+            <field name='group'>3</field>
+            <field name='description'>Merluza negra</field>
+       </record>  
+    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>105</field>
+            <field name='group'>3</field>
+            <field name='description'>Mero y pulpito</field>
+       </record>    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>106</field>
+            <field name='group'>3</field>
+            <field name='description'>Corvina pescadilla y fauna acompañante</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>107</field>
+            <field name='group'>3</field>
+            <field name='description'>Trabajadores Administrativos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>3</field>
+            <field name='description'>Plantas de procesamiento</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>201</field>
+            <field name='group'>3</field>
+            <field name='description'>Fresco</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>302</field>
+            <field name='group'>3</field>
+            <field name='description'>Congelado</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>3</field>
+            <field name='description'>Criaderos y granjas marítimas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>4</field>
+            <field name='description'>Lavaderos, peinadurías, hilanderías, tejedurías y fabricación de productos textiles diversos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>4</field>
+            <field name='description'>Fabricación de tejidos de punto</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>5</field>
+            <field name='description'>Curtiembres y sus productos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>5</field>
+            <field name='description'>Marroquinería</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>301</field>
+            <field name='group'>5</field>
+            <field name='description'>Prendas de vestir y afines</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>302</field>
+            <field name='group'>5</field>
+            <field name='description'>Fábricas de Cierres de Cremallera</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>5</field>
+            <field name='description'>Calzado</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>5</field>
+            <field name='description'>Artículos de cuero con proceso industrial para consumo animal</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>600</field>
+            <field name='group'>5</field>
+            <field name='description'>Saladeros y secaderos de cuero</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>999</field>
+            <field name='group'>5</field>
+            <field name='description'>Residual</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>6</field>
+            <field name='description'>Celulosa, papel, pañales, cartón y sus productos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>6</field>
+            <field name='description'>Aserraderos con y sin remanufactura, plantes de tableros y paneles, plantas chipeadoras y plantas impregnadoras</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>6</field>
+            <field name='description'>Fabricación de parquet, productos no especificados de madera, corcho y mimbre, muebles (excepto metálicos y plásticos)</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>7</field>
+            <field name='description'>Industria del Medicamento y farmacéutica de uso humano</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>7</field>
+            <field name='description'>Productos químicos;" sustancias químicas básicas y sus productos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>7</field>
+            <field name='description'>Pinturas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>7</field>
+            <field name='description'>Derivados del petróleo y el carbón;" asfalto, combustibles, lubricantes, productos bituminosos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>601</field>
+            <field name='group'>7</field>
+            <field name='description'>Artículos varios del Caucho</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>602</field>
+            <field name='group'>7</field>
+            <field name='description'>Recauchutaje</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>603</field>
+            <field name='group'>7</field>
+            <field name='description'>Latex</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>700</field>
+            <field name='group'>7</field>
+            <field name='description'>Medicamentos y farmacéutica de uso animal</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>8</field>
+            <field name='description'>Industrias metálicas básicas, productos metálicos, reciclaje de productos metálicos; aberturas de aluminio;" muebles metálicos. Diques, varaderos, astilleros y talleres navales. Maquinarias y equipos (motores, bombas, compresores, refrigeración)</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>8</field>
+            <field name='description'>Aparatos eléctricos y electrónicos, electrodomésticos. Equipos y aparatos de radio, televisión y comunicación. Instrumentos médicos, ópticos y de precisión. Máquinas de oficina, de contabilidad y de informática.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>8</field>
+            <field name='description'>Fábrica de carrocerías y tapicerías;" ensamblado de vehículos automotores, remolques, semirremolques, bicicletas, otros equipos de transporte.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>8</field>
+            <field name='description'>Talleres mecánicos, chapa y pintura. Auxilio mecánico</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>600</field>
+            <field name='group'>8</field>
+            <field name='description'>Extracción de minerales metálicos, piedras preciosas y semipreciosas;" fábrica de alhajas, fantasías, pulido y tallado de piedras finas o sintéticas.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>700</field>
+            <field name='group'>8</field>
+            <field name='description'>Productos de plástico y juguetes</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>800</field>
+            <field name='group'>8</field>
+            <field name='description'>Industrialización del vidrio, fibra de vidrio y sus productos (excepto colocación de vidrio y sus productos en obras).</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>9</field>
+            <field name='description'>1.Industria e instalaciones de la Construcción. Preparación de terreno, demolición, excavaciones, fundaciones con pilotes, construcción de edificios, alquiler de equipos de construcción, obras de ingeniería civil, acondicionamiento y terminación de edificios , alquiler de equipos de construcción, demolición con operarios. Albañilería y afines. Yeseros. Estucadores. Saneamiento y pavimento. Operación de planta de bombeo de saneamiento. Mosaico monolícitos y afines. Talleres de granito y marmolería, aserraderos y molienda. Pintura de obra. Impermeabilización. Herrerías de obras. Instalaciones sanitarias y de agua corriente (plomeros y cloaquistas).  Instalación de calefacción y aire acondicionado. Colocación de vidrio y sus productos en obra, así como sus tareas preparatorias que se realizan a esos efectos, tales como cortado, biselado, etc. Moldeadores y galponeros. Ascensores: Fábricas, talleres, depósitos, instalación y mantenimiento. Fábrica de mezcla. Servicio de operación de Plantas de Bombeo, Mantenimiento y Limpieza de Saneamiento realizados por terceros para las Intendencias Municipales, OSE y otros comitentes.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>201</field>
+            <field name='group'>9</field>
+            <field name='description'>2 y 3. Canteras en general, Caleras, Balasteras, extracción de piedra, arena y arcilla, cementos y sus canteras, perforaciones en búsqueda de agua</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>202</field>
+            <field name='group'>9</field>
+            <field name='description'>2 y 3. Fábricas de hormigón premezclado y fábricas de hormigón prefabricado </field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>203</field>
+            <field name='group'>9</field>
+            <field name='description'>2 y 3.Cerámica roja, blanca, refractaria, gres y ladrillo de campo, cerámica artesanal y productos de yeso</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>204</field>
+            <field name='group'>9</field>
+            <field name='description'>2 y 3.Operación de puestos de peaje ubicados en rutas nacionales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>10</field>
+            <field name='description'>Tiendas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>10</field>
+            <field name='description'>Artículos para el Hogar</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>100</field>
+            <field name='description'>Máquinas de Oficina</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>10</field>
+            <field name='description'>Bazares, ferreterías, pinturerías y jugueterías, casas de electricidad y electrónica</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>10</field>
+            <field name='description'>Mayoristas e Importadores y mayoristas de almacén</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>600</field>
+            <field name='group'>10</field>
+            <field name='description'>Casas de Música</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>700</field>
+            <field name='group'>10</field>
+            <field name='description'>Librerías y Papelerías</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>800</field>
+            <field name='group'>10</field>
+            <field name='description'>Barracas de Construcción ( artículos y materiales de construcción).</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>900</field>
+            <field name='group'>10</field>
+            <field name='description'>Farmacias, Homeopatías y Herboristerías</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1000</field>
+            <field name='group'>10</field>
+            <field name='description'>Ópticas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1100</field>
+            <field name='group'>10</field>
+            <field name='description'>Casas de fotografía</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1200</field>
+            <field name='group'>10</field>
+            <field name='description'>Casas dentales (ventas de artículos odontológicos)</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1300</field>
+            <field name='group'>10</field>
+            <field name='description'>Droguerías Farmacéuticas. Distribución de especialidades farmacéuticas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1400</field>
+            <field name='group'>10</field>
+            <field name='description'>Laboratorios fotográficos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1500</field>
+            <field name='group'>10</field>
+            <field name='description'>Venta de motos, ciclomotores sus repuestos y accesorios</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1600</field>
+            <field name='group'>10</field>
+            <field name='description'>Empresas que comercializan productos, art.y/o equipos médicos hospitalarios  y/o de uso en laboratorios</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1700</field>
+            <field name='group'>10</field>
+            <field name='description'>Repuestos de automotores</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1800</field>
+            <field name='group'>100</field>
+            <field name='description'>Supermercados</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1900</field>
+            <field name='group'>10</field>
+            <field name='description'>Anda</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2000</field>
+            <field name='group'>10</field>
+            <field name='description'>Barracas y Cooperativas de productos del país.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2100</field>
+            <field name='group'>10</field>
+            <field name='description'>Supergas envasado</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2200</field>
+            <field name='group'>10</field>
+            <field name='description'>Supergas distribución</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2300</field>
+            <field name='group'>10</field>
+            <field name='description'>Supergas fleteros</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2400</field>
+            <field name='group'>10</field>
+            <field name='description'>Cooperativas de consumo</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>9999</field>
+            <field name='group'>10</field>
+            <field name='description'>Residual</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>11</field>
+            <field name='description'>Comercio Minorista de la Alimentación</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>12</field>
+            <field name='description'>Hoteles, apart-hoteles, moteles y hosterías</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>12</field>
+            <field name='description'>Campamentos, bungalows y similares (incluye red de albergues internacionales)</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>12</field>
+            <field name='description'>Otros establecimientos de alojamiento - Pensiones</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>301</field>
+            <field name='group'>12</field>
+            <field name='description'>Hoteles de Alta rotatividad</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>12</field>
+            <field name='description'>Restaurantes, parrilladas, cantinas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>12</field>
+            <field name='description'>Cadenas de comidas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>600</field>
+            <field name='group'>12</field>
+            <field name='description'>Otras formas de servicios de alimentación y venta de bebidas (carros)</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>700</field>
+            <field name='group'>12</field>
+            <field name='description'>Cafés, Bares, pubs, cervecerías, venta de pizza y fainá , despacho de bebidas , repostería, confitería sin planta de elaboración y heladerías</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>800</field>
+            <field name='group'>12</field>
+            <field name='description'>Rotiserías</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>999</field>
+            <field name='group'>12</field>
+            <field name='description'>Residual</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>13</field>
+            <field name='description'>Transporte Terrestre de Personas Urbano de Montevideo</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>201</field>
+            <field name='group'>13</field>
+            <field name='description'>Empresas prestadoras de servicios de venta de pasajes, abonos,  servicios postales y encomiendas de las empreas de transporte del sub-grupo 02</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>13</field>
+            <field name='description'>Transporte Terrestre de pasajeros. Escolares</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>13</field>
+            <field name='description'>Transporte terrestre de personas. Remises</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>501</field>
+            <field name='group'>13</field>
+            <field name='description'>Chóferes de Montevideo</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>502</field>
+            <field name='group'>13</field>
+            <field name='description'>Radio operadoras</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>600</field>
+            <field name='group'>13</field>
+            <field name='description'>Transporte Terrestre de pasajeros. Suburbano</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>700</field>
+            <field name='group'>13</field>
+            <field name='description'>Transporte terrestre de carga Nacional. Todo tipo de transporte de carga para terceros, exceptuando los mencionados en otros grupos. Servicios de autoelevadores, grúas y equipos para la movilización de carga con chofer u operador.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>701</field>
+            <field name='group'>13</field>
+            <field name='description'>Transporte de bebidas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>702</field>
+            <field name='group'>13</field>
+            <field name='description'>Transporte de leche a granel</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>800</field>
+            <field name='group'>13</field>
+            <field name='description'>Terrestre de Carga. Internacional</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>900</field>
+            <field name='group'>13</field>
+            <field name='description'>Transporte Marítimo</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1001</field>
+            <field name='group'>13</field>
+            <field name='description'>Agencias marítimas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1002</field>
+            <field name='group'>13</field>
+            <field name='description'>Operadores y Terminales portuarias</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1003</field>
+            <field name='group'>13</field>
+            <field name='description'>Depósitos portuarios </field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1101</field>
+            <field name='group'>13</field>
+            <field name='description'>Servicios logísticos, incluyendo operadores logísticos ubicados en zona franca</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1102</field>
+            <field name='group'>13</field>
+            <field name='description'>Estiba manipulación de la carga y la descarga de mercancía y equipaje, independiente del medio de transporte utilizado</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1103</field>
+            <field name='group'>13</field>
+            <field name='description'>Almacenamiento y depósitos para terceros</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1104</field>
+            <field name='group'>13</field>
+            <field name='description'>Organización y coordinación del transporte en nombre de terceros. Contratación de fletes</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1105</field>
+            <field name='group'>13</field>
+            <field name='description'>Recepción y control de la carga</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>11006</field>
+            <field name='group'>13</field>
+            <field name='description'>Embalajes con fines de transporte</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1107</field>
+            <field name='group'>13</field>
+            <field name='description'>Agencias de carga</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1108</field>
+            <field name='group'>13</field>
+            <field name='description'>Terminales terrestres de carga</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1201</field>
+            <field name='group'>13</field>
+            <field name='description'>Compañías Aéreas Extranjeras</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1202</field>
+            <field name='group'>13</field>
+            <field name='description'>Pilotos de aviación ligera o pequeño porte </field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1203</field>
+            <field name='group'>13</field>
+            <field name='description'>Pilotos de líneas aéreas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1204</field>
+            <field name='group'>13</field>
+            <field name='description'>Aeroaplicadores</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1205</field>
+            <field name='group'>13</field>
+            <field name='description'>Talleres de aviones livianos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1206</field>
+            <field name='group'>13</field>
+            <field name='description'>Pluna personal de tierra y auxiliares de cabina</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1207</field>
+            <field name='group'>13</field>
+            <field name='description'>Empresas Concesionarias de Aeropuertos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1208</field>
+            <field name='group'>13</field>
+            <field name='description'>Servicio de rampas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>999</field>
+            <field name='group'>13</field>
+            <field name='description'>Residual</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>101</field>
+            <field name='group'>14</field>
+            <field name='description'>Bancos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>102</field>
+            <field name='group'>14</field>
+            <field name='description'>IFES </field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>103</field>
+            <field name='group'>14</field>
+            <field name='description'>Afaps</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>104</field>
+            <field name='group'>14</field>
+            <field name='description'>Bolsa Electrónica de Valores (Bevsa)</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>105</field>
+            <field name='group'>14</field>
+            <field name='description'>Procesadoras de tarjetas de crédito</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>106</field>
+            <field name='group'>14</field>
+            <field name='description'>Redes de Cajeros Automáticos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>107</field>
+            <field name='group'>14</field>
+            <field name='description'>Fideicomisos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>201</field>
+            <field name='group'>14</field>
+            <field name='description'>Tarjetas de crédito</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>202</field>
+            <field name='group'>14</field>
+            <field name='description'>Administradoras de crédito</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>203</field>
+            <field name='group'>14</field>
+            <field name='description'>Círculos de Ahorro Previo</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>301</field>
+            <field name='group'>14</field>
+            <field name='description'>Cajas de jubilaciones paraestatales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>302</field>
+            <field name='group'>14</field>
+            <field name='description'>Fondos complementarios</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>303</field>
+            <field name='group'>14</field>
+            <field name='description'>Cajas de auxilio </field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>14</field>
+            <field name='description'>Transportadoras de valores</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>501</field>
+            <field name='group'>14</field>
+            <field name='description'>Cooperativas de capitalización</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>502</field>
+            <field name='group'>14</field>
+            <field name='description'>Cooperativas de Operativa Restringida</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>600</field>
+            <field name='group'>14</field>
+            <field name='description'>Casas de cambios</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>700</field>
+            <field name='group'>14</field>
+            <field name='description'>Casas centrales de redes de pagos y cobranzas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>800</field>
+            <field name='group'>14</field>
+            <field name='description'>Compañías de seguros</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>900</field>
+            <field name='group'>14</field>
+            <field name='description'>Corporación Nacional para el Desarrollo</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1001</field>
+            <field name='group'>14</field>
+            <field name='description'>Agencias de Quiniela</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1002</field>
+            <field name='group'>14</field>
+            <field name='description'>Bancas de Quiniela</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>999</field>
+            <field name='group'>14</field>
+            <field name='description'>Residual</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>15</field>
+            <field name='description'>Salud general y anexos no incluidos en los subgrupos específicos.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>15</field>
+            <field name='description'>Casas de Salud y Residenciales de Ancianos con fines de lucro</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>15</field>
+            <field name='description'>Casas de Salud y Residenciales de Ancianos sin fines de lucro</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>15</field>
+            <field name='description'>Servicios de acompañantes</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>15</field>
+            <field name='description'>Ambulancias que realizan traslado de pacientes sin asistencia</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>16</field>
+            <field name='description'>Jardines de infantes y guarderías</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>16</field>
+            <field name='description'>Enseñanza preescolar, escolar, secundaria y superior</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>16</field>
+            <field name='description'>Técnica, comercial, academias de choferes</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>16</field>
+            <field name='description'>Especial para personas con capacidades diferentes</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>16</field>
+            <field name='description'>Enseñanza de idiomas </field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>600</field>
+            <field name='group'>16</field>
+            <field name='description'>Profesores particulares y otros tipos de enseñanza, formación o capacitación</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>700</field>
+            <field name='group'>16</field>
+            <field name='description'>Educación no formal</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>17</field>
+            <field name='description'>Talleres gráficos de obra (pre-impresión, impresión sobre cualquier sustrato, pos impresión, encuadernación, edición, grabado y reproducción fotográfica, fotomecánica, láser y edición digital.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>17</field>
+            <field name='description'>Talleres gráficos de las empresas periodísticas, diarios y publicaciones.</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>17</field>
+            <field name='description'>Publicidad en vía pública</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>101</field>
+            <field name='group'>18</field>
+            <field name='description'>Cines de Montevideo y zona balnearia de la Costa Este</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>201</field>
+            <field name='group'>18</field>
+            <field name='description'>Prensa escrita de Montevideo y sus ediciones periodísticas digitales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>202</field>
+            <field name='group'>18</field>
+            <field name='description'>Prensa escrita del Interior y sus ediciones periodísticas digitales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>301</field>
+            <field name='group'>18</field>
+            <field name='description'>Radios de Montevideo y sus ediciones periodísticas digitales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>302</field>
+            <field name='group'>18</field>
+            <field name='description'>Radios del Interior y sus ediciones periodísticas digitales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>401</field>
+            <field name='group'>18</field>
+            <field name='description'>TV abierta de Montevideo y sus ediciones periodísticas digitales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>402</field>
+            <field name='group'>18</field>
+            <field name='description'>TV abierta del Interior y sus ediciones periodísticas digitales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>403</field>
+            <field name='group'>18</field>
+            <field name='description'>TV por abonados de Montevideo y sus ediciones periodísticas digitales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>404</field>
+            <field name='group'>18</field>
+            <field name='description'>TV por abonados del Interior y sus ediciones periodísticas digitales</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>405</field>
+            <field name='group'>18</field>
+            <field name='description'>Productoras de contenidos para TV abierta y/o TV por abonados </field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>501</field>
+            <field name='group'>18</field>
+            <field name='description'>Agencias internacionales de noticias</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>601</field>
+            <field name='group'>18</field>
+            <field name='description'>Sociedades Hípicas, Casinos Electrónicos y Agencias Hípicas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>701</field>
+            <field name='group'>18</field>
+            <field name='description'>Impresiones y publicaciones oficiales (IMPO)</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>801</field>
+            <field name='group'>18</field>
+            <field name='description'>Alquiler y distribución de películas cinematográficas</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>999</field>
+            <field name='group'>18</field>
+            <field name='description'>Residual</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>19</field>
+            <field name='description'>Despachantes de Aduana</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>19</field>
+            <field name='description'>Empresas suministradoras de mano de obra</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>19</field>
+            <field name='description'>Personal de edificios cualquiera sea su naturaleza jurídica</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>19</field>
+            <field name='description'>Empresas de Pompas Fúnebres y sus Previsoras</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>500</field>
+            <field name='group'>19</field>
+            <field name='description'>Inmobiliarias y administración de propiedades</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>601</field>
+            <field name='group'>19</field>
+            <field name='description'>Recolección de residuos domiciliarios y barrido de calles</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>602</field>
+            <field name='group'>19</field>
+            <field name='description'>Recolección de residuos hospitalarios</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>700</field>
+            <field name='group'>19</field>
+            <field name='description'>Empresas de limpieza </field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>801</field>
+            <field name='group'>19</field>
+            <field name='description'>Seguridad Electrónica</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>802</field>
+            <field name='group'>19</field>
+            <field name='description'>Seguridad Física</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>900</field>
+            <field name='group'>19</field>
+            <field name='description'>Mensajerías y correos privados</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1000</field>
+            <field name='group'>19</field>
+            <field name='description'>Estaciones de servicio, gomerías y estacionamientos</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1100</field>
+            <field name='group'>19</field>
+            <field name='description'>Agencias de viaje (excluidas las pertenecientes a empresas de transporte)</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1200</field>
+            <field name='group'>19</field>
+            <field name='description'>Agencias de publicidad</field>
+       </record>     
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1300</field>
+            <field name='group'>19</field>
+            <field name='description'>Investigación de mercado y estudios sociales</field>
+       </record>    
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1500</field>
+            <field name='group'>19</field>
+            <field name='description'>Peluquerías Unisex (de damas, hombres y niños)</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1600</field>
+            <field name='group'>19</field>
+            <field name='description'>Áreas Verdes</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1700</field>
+            <field name='group'>19</field>
+            <field name='description'>Estudios contables profesionales y no profesionales</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1800</field>
+            <field name='group'>19</field>
+            <field name='description'>Sanitarias</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1901</field>
+            <field name='group'>19</field>
+            <field name='description'>Call Centers</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>1902</field>
+            <field name='group'>19</field>
+            <field name='description'>Servicios 0900</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2000</field>
+            <field name='group'>19</field>
+            <field name='description'>Cementerios privados</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2101</field>
+            <field name='group'>19</field>
+            <field name='description'>Administración de centros comerciales y de servicios</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2102</field>
+            <field name='group'>19</field>
+            <field name='description'>Empresas explotadoras y/o administradoras de zonas Francas comerciales, industriales y de servicio</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2200</field>
+            <field name='group'>19</field>
+            <field name='description'>Informática</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>999</field>
+            <field name='group'>19</field>
+            <field name='description'>Residual</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>20</field>
+            <field name='description'>Entidades deportivas</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>101</field>
+            <field name='group'>20</field>
+            <field name='description'>Básquetbol</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>20</field>
+            <field name='description'>Entidades gremiales</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>201</field>
+            <field name='group'>20</field>
+            <field name='description'>Entidades gremiales deportivas</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>2001</field>
+            <field name='group'>20</field>
+            <field name='description'>Fútbol</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>20</field>
+            <field name='description'>Entidades sociales</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>21</field>
+            <field name='description'>Trabajadoras del hogar o servicio doméstico</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>22</field>
+            <field name='description'>Plantaciones de caña de azúcar </field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>22</field>
+            <field name='description'>Arroceras</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>22</field>
+            <field name='description'>Agricultura de secano</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>400</field>
+            <field name='group'>22</field>
+            <field name='description'>Tambos</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>100</field>
+            <field name='group'>23</field>
+            <field name='description'>Fruticultura, horticultura, floricultura, citrus, criaderos de aves y otras actividades no incluidas en el Grupo 22</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>200</field>
+            <field name='group'>23</field>
+            <field name='description'>Suinos y Apicultura</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>300</field>
+            <field name='group'>23</field>
+            <field name='description'>Viñedos</field>
+       </record>       
+       <record model='hr.uy.mtss.working.subgroups'>
+            <field name='subgroup'>10</field>
+            <field name='group'>24</field>
+            <field name='description'>Forestación (incluído bosques, montes y turberas)</field>
+       </record>       
+       
+      
+    
+    
+    </data>
+</openerp>

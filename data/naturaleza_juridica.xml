@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>1</field>
+            <field name='description_of_legal_nature'>Empresa Unipersonal</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>2</field>
+            <field name='description_of_legal_nature'>Sociedad Responsabilidad Limitada</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>3</field>
+            <field name='description_of_legal_nature'>Sociedad Anónima</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>4</field>
+            <field name='description_of_legal_nature'>Sociedad de hecho</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>5</field>
+            <field name='description_of_legal_nature'>Sociedad colectiva</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>6</field>
+            <field name='description_of_legal_nature'>Sociedad en comandita simple</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>7</field>
+            <field name='description_of_legal_nature'>Sociedad de capital</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>8</field>
+            <field name='description_of_legal_nature'>Sociedad civil</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>9</field>
+            <field name='description_of_legal_nature'>Asociación</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>10</field>
+            <field name='description_of_legal_nature'>Cooperativa de consumo</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>11</field>
+            <field name='description_of_legal_nature'>Cooperativa de ahorro</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>12</field>
+            <field name='description_of_legal_nature'>Cooperativa de producción</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>13</field>
+            <field name='description_of_legal_nature'>Sucursal de empresa</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>14</field>
+            <field name='description_of_legal_nature'>Sociedad de fomento</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>15</field>
+            <field name='description_of_legal_nature'>Cooperativa agropecuaria</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>16</field>
+            <field name='description_of_legal_nature'>Organismo paraestatal</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>17</field>
+            <field name='description_of_legal_nature'>Sucesores de</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>18</field>
+            <field name='description_of_legal_nature'>Organización social</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>19</field>
+            <field name='description_of_legal_nature'>Cooperativa de vivienda</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>20</field>
+            <field name='description_of_legal_nature'>Fundaciones, Corporaciones</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>21</field>
+            <field name='description_of_legal_nature'>Edificio en propiedad horizontal</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>22</field>
+            <field name='description_of_legal_nature'>Consorcio</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>23</field>
+            <field name='description_of_legal_nature'>Grupo de interés económico</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>24</field>
+            <field name='description_of_legal_nature'>Sociedad accidental</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>25</field>
+            <field name='description_of_legal_nature'>Organismo público</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>26</field>
+            <field name='description_of_legal_nature'>Sociedad civil de producción</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>27</field>
+            <field name='description_of_legal_nature'>Sociedad ganadera</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>28</field>
+            <field name='description_of_legal_nature'>Sociedad en comandita por acciones</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>29</field>
+            <field name='description_of_legal_nature'>Núcleo familiar</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>30</field>
+            <field name='description_of_legal_nature'>Empresa extranjera</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>31</field>
+            <field name='description_of_legal_nature'>Fideicomiso</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>32</field>
+            <field name='description_of_legal_nature'>Sociedad Agraria de Responsabilidad Ltda.</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>33</field>
+            <field name='description_of_legal_nature'>Asociación Agraria de Responsabilidad Ltda.</field>
+       </record>  
+       <record model='hr.uy.bps.legal.nature'>
+            <field name='code_of_legal_nature'>34</field>
+            <field name='description_of_legal_nature'>Cooperativa Social</field>
+       </record> 
+       
+     </data>
+</openerp>

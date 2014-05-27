@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.nationality'>
+            <field name='nationality_code'>1</field>
+            <field name='nationality_description'>Uruguayo/a (ciudadano natural)</field>
+       </record> 
+       <record model='hr.uy.bps.nationality'>
+            <field name='nationality_code'>2</field>
+            <field name='nationality_description'>Ciudadano/a legal</field>
+       </record> 
+       <record model='hr.uy.bps.nationality'>
+            <field name='nationality_code'>3</field>
+            <field name='nationality_description'>Extranjero/a</field>
+       </record>  
+    
+    
+    </data>
+</openerp>

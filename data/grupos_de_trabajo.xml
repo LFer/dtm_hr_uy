@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>1</field>
+            <field name='description'>Procesamiento y conservación de alimentos, bebidas y tabaco</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>2</field>
+            <field name='description'>Industria frigorífica</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>3</field>
+            <field name='description'>Pesca</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>4</field>
+            <field name='description'>Industria Textil</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>5</field>
+            <field name='description'>Industria del Cuero, vestimenta y calzado</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>6</field>
+            <field name='description'>Industria de la madera, celulosa y papel</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>7</field>
+            <field name='description'>Industria química, del medicamento, farmacéutica, de combustibles y anexos.</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>8</field>
+            <field name='description'>Industria de productos metálicos, maquinarias y equipo</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>9</field>
+            <field name='description'>Industria de la Construcción y actividades complementarias</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>10</field>
+            <field name='description'>Comercio en general</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>11</field>
+            <field name='description'>Comercio Minorista de la Alimentación</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>12</field>
+            <field name='description'>Hoteles, Restaurantes y Bares</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>13</field>
+            <field name='description'>Transporte y Almacenamiento</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>14</field>
+            <field name='description'>Intermediación financiera, seguros y pensiones</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>15</field>
+            <field name='description'>Servicios de salud y anexos</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>16</field>
+            <field name='description'>Servicios de enseñanza</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>17</field>
+            <field name='description'>Industria Gráfica</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>18</field>
+            <field name='description'>Servicios culturales, de esparcimiento y comunicaciones</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>19</field>
+            <field name='description'>Servicios Profesionales, Técnicos Especializados y aquellos no incluidos en otros grupos</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>20</field>
+            <field name='description'>Entidades gremiales, sociales y deportivas</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>21</field>
+            <field name='description'>Trabajadoras del hogar o servicio doméstico</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>22</field>
+            <field name='description'>Ganadería, Agricultura y actividades conexas</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>23</field>
+            <field name='description'>Viñedos, fruticultura, horticultura, floricultura, criaderos de aves, suinos, apicultura y otras actividades no incluídas en el Grupo 22</field>
+       </record>  
+       <record model='hr.uy.mtss.working.groups'>
+            <field name='group'>24</field>
+            <field name='description'>Forestación (incluído bosques, montes y turberas)</field>
+       </record> 
+        
+       </data>
+</openerp>

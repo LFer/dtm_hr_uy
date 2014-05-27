@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+	<record id="action_hr_locals_form" model="ir.actions.act_window">
+		<field name="name">Locals</field>
+		<field name="res_model">hr.locals</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+
+	<menuitem id="menu_hr_locals_main" parent="hr.menu_hr_configuration" name="Locals" sequence="0"/>
+	
+	<menuitem action="action_hr_locals_form" id="hr_locals_menuitem" parent="menu_hr_locals_main" sequence="1"/>
+
+
+	<record id="hr_locals_view" model="ir.ui.view">
+		<field name="name">hr.locals.form</field>
+		<field name="model">hr.locals</field>
+		<field name="arch" type="xml">
+		<form string="Locals" version="7.0">
+			<sheet>
+				<group>
+					<field name="company_id"/>
+					<field name="local_id"/>
+					<field name="local_description"/>
+				</group>
+			</sheet>
+		</form>
+		</field>
+	</record>
+
+	<record id="view_hr_locals_tree" model="ir.ui.view">
+	<!--field string="locales"/-->
+		<field name="name">hr.locals.form</field>
+		<field name="model">hr.locals</field>
+		<field name="arch" type="xml">
+			<tree string="Locals">
+				<field name="company_id"/>
+				<field name="local_id"/>
+				<field name="local_description"/>
+			</tree>
+		</field>
+	</record>
+	
+		
+		</data>
+</openerp>
+

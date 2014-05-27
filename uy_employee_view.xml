@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+	<record id="hr_employee_family_view" model="ir.ui.view">
+		<field name="name">hr.employee.family.tree</field>
+		<field name="model">hr.employee.family</field>
+		<field name="type">tree</field>
+		<field name="arch" type="xml">
+				<tree string='Familiares'>
+				<field name='first_name'/>
+				<field name='first_surname'/>
+				<field name='kinship'/>
+							
+				</tree>
+		</field>
+	</record>
+        <record id="hr_employee_family_form" model="ir.ui.view">
+            <field name="name">hr.employee.family.form</field>
+            <field name="model">hr.employee.family</field>
+            <field name="arch" type="xml">
+                <form string="Liquidation" version="7.0">
+                    <sheet>
+			<group cols="3" colspan="2">
+				<field name='first_surname'/>
+				<field name='second_surname'/>
+				<field name='first_name'/>
+				<field name='second_name'/>
+				<field name='gender'/>
+				<field name='date_of_birth'/>
+				<field name='kinship'/>
+				<field name='country_of_birth'/>
+				<field name='nationality'/>
+				<field name='address_home_id'/>
+				<field name='document_type'/>
+				<field name='country_id'/>
+				<field name='id_number'/>
+				<field name='polling_card'/>
+               		</group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+	<record id="hr_employee_view" model="ir.ui.view" >
+	<field name="name">hr.employee.form.inherit</field>
+	<field name="model">hr.employee</field>
+	<field name="inherit_id" ref="hr.view_employee_form"/>
+	<field name="arch" type="xml">
+	<data>
+		<field name="name" position="replace">
+			<field name="name_gen" readonly="1"/>
+		</field>
+		<group string="Citizenship &amp; Other Info" position="before"> 
+			<group string="Full name">
+				<field name="first_surname" on_change="onchange_names(first_name,second_name,first_surname,second_surname,birthday,context)"/>
+				<field name="second_surname" on_change="onchange_names(first_name,second_name,first_surname,second_surname,birthday,context)"/>
+				<field name="first_name" on_change="onchange_names(first_name,second_name,first_surname,second_surname,birthday,context)"/>
+				<field name="second_name" on_change="onchange_names(first_name,second_name,first_surname,second_surname,birthday,context)"/>
+				<field name="name" hidden="1"/>
+			</group>
+		</group>
+		<group string="Citizenship &amp; Other Info"> 
+			<field name='country_of_birth'/>
+		</group>
+		<field name="otherid" position="replace"/>
+		<field name="passport_id" position="replace"/>
+		<field name="bank_account_id" position="replace"/>
+		<field name="coach_id" position="replace">
+			<field name="employee_number"/>
+			<field name="autogen_name"/>
+		</field>
+		<field name="identification_id" position="before">
+			<field name="country_of_id"/>
+		</field>
+		<field name="identification_id" position="after">
+			<field name="credential"/>
+		</field>
+		<field name="department_id" position="after">
+			<field name="date_hired"/>
+			<field name="date_fired"/>
+		</field>
+		<field name="job_id" position="after">
+			<field name="date_job_start"/>
+			<field name="pay_type"/>
+		</field>
+		<notebook>
+			<page string='Health Data'>
+			<group>
+				<field name='health_card_id' />
+				<field name='health_card_expiration_date' />
+				<field name='health_care_provider' />
+				<field name='health_care_provider_user_id' />
+				<field name='emergency_health_care_provider' />
+				<field name='emergency_health_care_provider_user_id' />
+			</group>
+			</page>
+			<page string='Details of payment'>
+			<group>
+				<field name='payment_method' />
+				<field name='account_type' />
+				<field name='account_number' />
+				<field name='account_bank'/>
+			</group>
+			</page>
+			<page string='BPS, MTSS Information'>
+			<group>
+				<field name='work_timetable'/>
+				<field name='termination_code'/>
+				<field name='bps_category_type'/>
+				<field name='bps_category_general'/>
+				<field name='bps_category_construction'/>
+				<field name='bps_category_rural'/>
+				<field name='bps_category_date'/>
+				<field name='bps_type_of_remuneration'/>
+				<field name='bps_functional_link'/>
+				<field name='bps_labor_relations'/>
+				<field name='bps_health_insurance'/>
+				<field name='mtss_sheet'/>
+			</group>
+			</page>
+			<page string= 'Family'>
+			<group>
+				<field name= 'family' nolabel="1" />
+<!--context="{'default_employee_id': active_id}}"-->
+			</group>
+			</page>
+		</notebook>
+		<field name='birthday' position='replace'>
+			<field name='birthday' on_change="onchange_names(first_name,second_name,first_surname,second_surname,birthday,context)"/>
+		</field>
+	</data>
+	</field>
+</record>
+
+	<record id="hr_locals_view" model="ir.ui.view" >
+	
+		<field name="name">hr.locals.tree</field>
+		<field name="model">hr.locals</field>
+		<field name="tupe">tree</field>
+		<field name="arch" type="xml">
+				<tree string='Locales'>
+					<field name='local_id'/>
+					<field name='local_description'/>
+				</tree>
+		</field>
+				
+	</record> 
+
+<record id="view_hr_department_uy" model="ir.ui.view" >
+	<field name="name">hr.department.form.inherit</field>
+	<field name="model">hr.department</field>
+	<field name="inherit_id" ref="hr.view_department_form"/>
+	<field name="arch" type="xml">
+		<data>
+			<group position="after">
+				<field name="section_ids" nolabel='1'/>
+			</group>
+		</data>
+	</field>
+</record>
+	
+<record id="hr_section_view" model="ir.ui.view">
+
+	<field name="name">hr.section.tree</field>
+	<field name="model">hr.section</field>
+	<field name="type">tree</field>
+	<field name="arch" type="xml">
+			<tree string='Secciones'> 
+				<field name='section' />
+				<field name='desc_seccion'/>
+			</tree>
+	</field>
+</record>
+
+
+
+<record id="view_company_form" model="ir.ui.view" >
+	<field name="name">res.company.form.inherit</field>
+	<field name="model">res.company</field>
+	<field name="inherit_id" ref="base.view_company_form"/>
+	<field name="arch" type="xml">
+	<data>
+		<field name='vat' position='replace'>
+			<field name='vat' hidden="1"/>
+			<field name='rut_id'/>
+			<field name='main_activity'/>
+			<field name='police_section'/>
+			<field name='judicial_section'/>
+		</field>
+
+		<field name='company_registry' position='replace'/>
+		<notebook>
+			<page string="Configuracion BPS, BSE y MTSS">
+				<group>
+					<field name='bps_id'/>
+					<field name='contribution_id' />
+					<field name='taxpayer_id' />
+					<field name='exemption_of_contribution' />
+					<field name='legal_nature' />
+					<field name='bse_id'/>
+					<field name='mtss_id'/>
+					<field name='mtss_group' />
+					<field name='mtss_sub_group' />
+					<field name='collective_agreement'/>
+					<field name='start_date_of_activity' />
+					<field name='collective_agreement_expiration_date'/>
+					<!--field name='overdraft_code' />
+					<field name= 'retent_overdraft_code' /-->
+				</group>
+			</page>
+			<page string="Datos de industria">
+				<group>
+				<field name="commerce_service"/>
+				</group>
+				<group string='Ventas' attrs="{'invisible':[('commerce_service','!=',True)]}">
+					<field name='bulk_sales'/>
+					<field name='retail_sales'/>
+				</group>
+				<group>
+				<field name="industry"/>
+				</group>
+				<group string='Descripcion de Industria' attrs="{'invisible':[('industry','!=',True)]}">
+					<field name='industry_inputs'/>
+					<field name='industry_outputs'/>
+				</group>
+				<group>
+				<field name="transport"/>
+				</group>
+				<group attrs="{'invisible':[('transport','!=',True)]}">
+					<field name='terrestrial_transport'/>
+				</group>
+				<group>
+				<field name="construction"/>
+				</group>
+				<group string='Trabajos de construccion' attrs="{'invisible':[('construction','!=',True)]}">
+					<field name='construction_architecture'/>
+					<field name='construction_engineering'/>
+					<field name='construction_masonry_and_concrete'/>
+					<field name='subcontracting'/>
+				</group>
+			</page>
+			<page string="Locales">
+				<field name='locals'/>
+			</page>
+			
+		</notebook>
+	</data>
+	</field>
+</record>
+<record id="hr_locals_form" model="ir.ui.view">
+	<field name="name">hr.locals.form</field>
+	<field name="model">hr.locals</field>
+	<field name="arch" type="xml">
+	<form string="Local" version="7.0">
+		<group>
+		<field name='local_id'/>
+		<field name='local_description'/>
+		</group>
+	</form>
+	</field>
+</record>
+
+
+</data>
+</openerp>

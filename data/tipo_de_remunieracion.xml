@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+       <record model='hr.uy.bps.type.of.remuneration'>
+            <field name='remuneration_code'>1</field>
+            <field name='description_of_remuneration'>Mensual, cobra por mes (incluye fictos patronales)</field>
+       </record>  
+       <record model='hr.uy.bps.type.of.remuneration'>
+            <field name='remuneration_code'>2</field>
+            <field name='description_of_remuneration'>Jornalero, cobra por jornal. Se incluye a quién cobra por hora</field>
+       </record> 
+       <record model='hr.uy.bps.type.of.remuneration'>
+            <field name='remuneration_code'>3</field>
+            <field name='description_of_remuneration'>Destajista, cobra por tarea realizada</field>
+       </record> 
+       <record model='hr.uy.bps.type.of.remuneration'>
+            <field name='remuneration_code'>4</field>
+            <field name='description_of_remuneration'>A comisión, cobra exclusivamente por comisiones</field>
+       </record> 
+       <record model='hr.uy.bps.type.of.remuneration'>
+            <field name='remuneration_code'>5</field>
+            <field name='description_of_remuneration'>Mixta, régimen compuesto por un sueldo básico mensual más una comisión</field>
+       </record> 
+       <record model='hr.uy.bps.type.of.remuneration'>
+            <field name='remuneration_code'>6</field>
+            <field name='description_of_remuneration'>Sin remuneración</field>
+       </record> 
+    
+    
+    </data>
+</openerp>
