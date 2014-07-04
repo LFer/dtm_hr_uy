@@ -16,7 +16,7 @@ class hr_company_uy(osv.osv):
         'taxpayer_id':fields.many2one('hr.uy.bps.contributions.and.taxpayer.type','Type of taxpayer'),
         'exemption_of_contribution':fields.many2one('hr.uy.bps.exemption.of.contribution', 'Exemption of contributcion'),
         'legal_nature':fields.many2one('hr.uy.bps.legal.nature', 'Legal nature'),
-        'locals':fields.one2many('hr.locals', 'company_id'),
+        'locals':fields.one2many('hr.locals', 'company_id', 'Local'),
         'rut_id':fields.integer('RUT number',size=15),
         'police_section':fields.integer('Police section',size=3),
         'judicial_section':fields.char('Judicial section',size=30),
@@ -92,7 +92,7 @@ class hr_employee_uy(osv.osv):
         'date_hired':fields.date('Date of admission'),
         'date_fired':fields.date('Date of leaving'),
         'date_job_start':fields.date('In office since'),
-        'pay_type':fields.selection([('M','Monthly'),('W','Working day')],'Type of work'),
+        'pay_type':fields.selection([('M','Monthly'),('W','Working day')],'Payment type'),
 
         #pestania forma de pago
         'payment_method':fields.selection([('C','Cash'),('P','Paycheck'),('D','Deposit to account')],'Method of payment'),
@@ -125,8 +125,8 @@ class hr_employee_uy(osv.osv):
     }
 
     _sql_constraints = [
-        ('credential_unique', 'unique(credential)', 'Ya existe un empleado con la credencial ingresada!'),
-        ('employee_number_unique', 'unique(employee_number)', 'Ya existe un empleado con el numero de empleado ingresado!')]
+        ('credential_unique', 'unique(credential)', 'There is already an employee with the entered credential number!'),
+        ('employee_number_unique', 'unique(employee_number)', 'There is already an employee with the entered employee number!')]
 
 hr_employee_uy()
 
@@ -164,7 +164,18 @@ class hr_locals(osv.osv):
         'local_id':fields.char('Local', size=20),
         'local_description':fields.char('Description', size=20),
     }
-
+    def name_get(self, cr, uid, ids, context=None):
+        if not ids:
+            return []
+        reads = self.read(cr, uid, ids, ['local_description'], context=context)
+        res = []
+        for record in reads:
+            #in case there is no description, don't use it or type error will pop
+            description = record['local_description']
+            if not description:
+                description = 'No descr'
+            res.append((record['id'],u'' + str(record['local_description'])))
+        return res
 
 hr_locals()
 
@@ -202,10 +213,10 @@ class bps_contributions_and_taxpayer_type(osv.osv):
     _description = "Contributions and taxpayer type"
     _name="hr.uy.bps.contributions.and.taxpayer.type"
     _columns= {
-        'contribution_code':fields.char('Código de aportación', size=3),
-        'description_of_contribution':fields.char('Descripcíon de aportación', size=50),
-        'code_type_of_taxpayer':fields.char('Código de tipo de contribuyente', size=3),
-        'description_of_type_of_taxpayer':fields.char('Descrición de tipo decontribuyente', size=50),
+        'contribution_code':fields.char('Contribution code', size=3),
+        'description_of_contribution':fields.char('Description of contribution', size=50),
+        'code_type_of_taxpayer':fields.char('Code type of taxpayer', size=3),
+        'description_of_type_of_taxpayer':fields.char('Description of taxpayer', size=50),
     }
 
     def __get_truncated_descr(self,description):
@@ -260,7 +271,7 @@ class bps_type_of_remuneration(osv.osv):
 bps_type_of_remuneration()
 
 class bps_functional_link(osv.osv):
-    _description = "Vinculo funcional"
+    _description = "Functional link"
     _name= "hr.uy.bps.functional.link"
     _columns= {
         'functional_code_link':fields.integer('Functional link code', size=3),
@@ -298,7 +309,7 @@ class bps_country(osv.osv):
 bps_country()
 
 class bps_gender(osv.osv):
-    _description="Sexo"
+    _description="Gender"
     _name="hr.uy.bps.gender"
     _columns={
         'gender':fields.char('Gender', size=10),#selection([('M', 'Male'),('F','Female')],'Gender', size=10),
@@ -780,7 +791,7 @@ class hr_uy_document_type(osv.osv):
         'document_description':fields.char('Document description'),
                     }
     _sql_constraints = [
-                 ('document_unique', 'unique(document_id)', 'document identifiers must be unique')]
+                 ('document_unique', 'unique(document_id)', 'The document identifiers must be unique')]
 
 
 hr_uy_document_type()

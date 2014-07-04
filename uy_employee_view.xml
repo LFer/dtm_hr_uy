@@ -6,7 +6,7 @@
 		<field name="model">hr.employee.family</field>
 		<field name="type">tree</field>
 		<field name="arch" type="xml">
-				<tree string='Familiares'>
+				<tree string='Family'>
 				<field name='first_name'/>
 				<field name='first_surname'/>
 				<field name='kinship'/>
@@ -41,7 +41,7 @@
             </field>
         </record>
 	<record id="hr_employee_view" model="ir.ui.view" >
-	<field name="name">hr.employee.form.inherit</field>
+	<field name="name">	.form.inherit</field>
 	<field name="model">hr.employee</field>
 	<field name="inherit_id" ref="hr.view_employee_form"/>
 	<field name="arch" type="xml">
@@ -137,7 +137,7 @@
 		<field name="model">hr.locals</field>
 		<field name="tupe">tree</field>
 		<field name="arch" type="xml">
-				<tree string='Locales'>
+				<tree string='Locals'>
 					<field name='local_id'/>
 					<field name='local_description'/>
 				</tree>
@@ -164,7 +164,7 @@
 	<field name="model">hr.section</field>
 	<field name="type">tree</field>
 	<field name="arch" type="xml">
-			<tree string='Secciones'> 
+			<tree string='Sections'> 
 				<field name='section' />
 				<field name='desc_seccion'/>
 			</tree>
@@ -189,7 +189,7 @@
 
 		<field name='company_registry' position='replace'/>
 		<notebook>
-			<page string="Configuracion BPS, BSE y MTSS">
+			<page string="BPS, BSE and MTSS Configuration">
 				<group>
 					<field name='bps_id'/>
 					<field name='contribution_id' />
@@ -203,22 +203,20 @@
 					<field name='collective_agreement'/>
 					<field name='start_date_of_activity' />
 					<field name='collective_agreement_expiration_date'/>
-					<!--field name='overdraft_code' />
-					<field name= 'retent_overdraft_code' /-->
 				</group>
 			</page>
-			<page string="Datos de industria">
+			<page string="Industry data">
 				<group>
 				<field name="commerce_service"/>
 				</group>
-				<group string='Ventas' attrs="{'invisible':[('commerce_service','!=',True)]}">
+				<group string='Sales' attrs="{'invisible':[('commerce_service','!=',True)]}">
 					<field name='bulk_sales'/>
 					<field name='retail_sales'/>
 				</group>
 				<group>
 				<field name="industry"/>
 				</group>
-				<group string='Descripcion de Industria' attrs="{'invisible':[('industry','!=',True)]}">
+				<group string='Industry description' attrs="{'invisible':[('industry','!=',True)]}">
 					<field name='industry_inputs'/>
 					<field name='industry_outputs'/>
 				</group>
@@ -231,14 +229,14 @@
 				<group>
 				<field name="construction"/>
 				</group>
-				<group string='Trabajos de construccion' attrs="{'invisible':[('construction','!=',True)]}">
+				<group string='Construction work' attrs="{'invisible':[('construction','!=',True)]}">
 					<field name='construction_architecture'/>
 					<field name='construction_engineering'/>
 					<field name='construction_masonry_and_concrete'/>
 					<field name='subcontracting'/>
 				</group>
 			</page>
-			<page string="Locales">
+			<page string="Locals">
 				<field name='locals'/>
 			</page>
 			
