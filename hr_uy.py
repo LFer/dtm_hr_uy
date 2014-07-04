@@ -1,15 +1,9 @@
 ﻿# -*- coding: utf-8 -*-
 # -*- encoding: utf-8 -*-
-##############################################################################
-#
-# Copyright (c) 2004 TINY SPRL. (http://tiny.be) All Rights Reserved.
-# Fabien Pinckaers
-#
 
 from openerp.osv import osv, fields
 
 class hr_company_uy(osv.osv):
-
     _inherit = 'res.company'
     _columns={
         'contribution_id':fields.many2one('hr.uy.bps.contributions.and.taxpayer.type', 'Type of contribution'),
@@ -43,15 +37,14 @@ class hr_company_uy(osv.osv):
         'construction_engineering':fields.boolean('Engineering Work'),
         'construction_masonry_and_concrete':fields.boolean('Concrete and masonry'),
         'subcontracting':fields.char('Subcontract'),
-        }
+    }
 
+hr_company_uy()
 
 class hr_employee_uy(osv.osv):
-
     _inherit = 'hr.employee'
-    #hackish
+
     def onchange_names(self, cr, uid, ids,first_name,second_name,first_surname,second_surname,birthday,context=None):
-        #pdb.set_trace()
         name = ""
         if not birthday:
             return { 'value' : { 'name' : name , 'autogen_name' : 'Completar Fecha de Nacimiento'}}
@@ -65,7 +58,6 @@ class hr_employee_uy(osv.osv):
         for s in [second_name,first_surname,second_surname]:
             if s:
                 name = name + u' ' + s
-        #self.write(cr, uid, ids, { 'name' : name }, context=context)
         return { 'value' : { 'name' : name , 'autogen_name' : autogen}}
 
     def generate_name(self, cr, uid, ids, field_name, arg, context=None):
@@ -74,10 +66,10 @@ class hr_employee_uy(osv.osv):
             res[line.id]=line.name
         return res
 
-    _columns = {
-
+    _columns ={
         'name_gen':fields.function(generate_name,type='char',method=True,string='Hack'),
         'family':fields.one2many('hr.employee.family','employee_id','Familirares'),
+        
         #datos basicos
         'employee_number':fields.char('Employee number',size=10),
         'country_of_birth':fields.many2one('hr.uy.bps.country','Contry of birth'),
@@ -87,13 +79,13 @@ class hr_employee_uy(osv.osv):
         'second_surname':fields.char('Second surname',size=20),
         'first_name':fields.char('First name', size=20),
         'second_name':fields.char('Second name', size=20),
-
+        
         #datos laborales
         'date_hired':fields.date('Date of admission'),
         'date_fired':fields.date('Date of leaving'),
         'date_job_start':fields.date('In office since'),
         'pay_type':fields.selection([('M','Monthly'),('W','Working day')],'Payment type'),
-
+        
         #pestania forma de pago
         'payment_method':fields.selection([('C','Cash'),('P','Paycheck'),('D','Deposit to account')],'Method of payment'),
         'account_type':fields.selection([('C','Checking account'),('S','Savings bank'),(' ','Others')],'Account tipe'),
@@ -132,7 +124,7 @@ hr_employee_uy()
 
 class hr_employee_family(osv.osv):
     _name = "hr.employee.family"
-    _columns = {
+    _columns ={
         'first_surname':fields.char('First surname',size=20,required=True),
         'second_surname':fields.char('Second surname',size=20,required=True),
         'employee_id':fields.many2one('hr.employee','Associated employee',select=True),
@@ -148,10 +140,6 @@ class hr_employee_family(osv.osv):
         'country_id':fields.many2one('hr.uy.bps.country', 'Contry of document', size=20),
         'id_number':fields.char('Document id', size=20),
         'polling_card':fields.char('Polling card', size=20),
-
-
-
-
     }
 
 hr_employee_family ()
@@ -159,11 +147,12 @@ hr_employee_family ()
 
 class hr_locals(osv.osv):
     _name = "hr.locals"
-    _columns = {
+    _columns ={
         'company_id':fields.many2one('res.company', 'Main company'),
         'local_id':fields.char('Local', size=20),
         'local_description':fields.char('Description', size=20),
     }
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -194,13 +183,13 @@ class section (osv.osv):
         'section':fields.integer('Section',size=5),
         'desc_seccion':fields.char('Description of section', size=20)
     }
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
         reads = self.read(cr, uid, ids, ['department_id','section','desc_seccion'], context=context)
         res = []
         for record in reads:
-            #in case there is no description, don't use it or type error will pop
             description = record['desc_seccion']
             if not description:
                 description = 'No descr'
@@ -212,7 +201,7 @@ section()
 class bps_contributions_and_taxpayer_type(osv.osv):
     _description = "Contributions and taxpayer type"
     _name="hr.uy.bps.contributions.and.taxpayer.type"
-    _columns= {
+    _columns={
         'contribution_code':fields.char('Contribution code', size=3),
         'description_of_contribution':fields.char('Description of contribution', size=50),
         'code_type_of_taxpayer':fields.char('Code type of taxpayer', size=3),
@@ -224,6 +213,7 @@ class bps_contributions_and_taxpayer_type(osv.osv):
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -244,15 +234,17 @@ bps_contributions_and_taxpayer_type()
 class bps_type_of_remuneration(osv.osv):
     _description = "Type of remuneration"
     _name="hr.uy.bps.type.of.remuneration"
-    _columns= {
+    _columns={
         'remuneration_code':fields.integer('Remuneration code', size=3),
         'description_of_remuneration':fields.char('Description of remuneration', size=50),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -273,10 +265,11 @@ bps_type_of_remuneration()
 class bps_functional_link(osv.osv):
     _description = "Functional link"
     _name= "hr.uy.bps.functional.link"
-    _columns= {
+    _columns={
         'functional_code_link':fields.integer('Functional link code', size=3),
         'functional_code_description':fields.char('Functional link description', size=50),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
@@ -302,7 +295,7 @@ bps_functional_link()
 class bps_country(osv.osv):
     _description = "Country"
     _name= "hr.uy.bps.country"
-    _columns= {
+    _columns={
         'country_id':fields.char('Country', size=56),
         'country_code':fields.char('Country code',size=33),
     }
@@ -315,6 +308,7 @@ class bps_gender(osv.osv):
         'gender':fields.char('Gender', size=10),#selection([('M', 'Male'),('F','Female')],'Gender', size=10),
         'gender_id':fields.integer('Gender code', size=1),
     }
+
     """
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
@@ -330,10 +324,11 @@ bps_gender()
 class bps_nationality(osv.osv):
     _description= "Nationality"
     _name= "hr.uy.bps.nationality"
-    _columns= {
+    _columns={
         'nationality_code':fields.integer('Nationality code', size=1),
         'nationality_description':fields.char('Nationality description', size=50),
     }
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -342,20 +337,23 @@ class bps_nationality(osv.osv):
         for record in reads:
             res.append((record['id'],u'' + str(record['nationality_description']) ))
         return res
+
 bps_nationality()
 
 class bps_marital_status(osv.osv):
     _description= "Marital status"
     _name= "hr.uy.bps.marital.status"
-    _columns= {
+    _columns={
         'marital_status_code':fields.integer('Marital status code', size=2,required=True),
         'marital_status_description':fields.char('Marital status description', size=50),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -376,7 +374,7 @@ bps_marital_status()
 class bps_health_insurance(osv.osv):
     _description= "Health insurance"
     _name= "hr.uy.bps.health.insurance"
-    _columns= {
+    _columns={
         'health_insurance_code':fields.integer('Health insurance code', size=3),
         'health_insurance_description':fields.char('Health insurance description', size=100),
     }
@@ -386,6 +384,7 @@ class bps_health_insurance(osv.osv):
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -416,6 +415,7 @@ class bps_termination(osv.osv):
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -446,6 +446,7 @@ class bps_exemption_of_contribution(osv.osv):
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -460,20 +461,23 @@ class bps_exemption_of_contribution(osv.osv):
                 description = self.__get_truncated_descr(description)
             res.append((record['id'],u'Excemption Code ' + str(record['exemption_code']) + u' - ' + description))
         return res
+
 bps_exemption_of_contribution()
 
 class bps_special_computing(osv.osv):
     _description= "Special computing"
     _name= "hr.uy.bps.special.computing"
-    _columns= {
+    _columns={
         'computing_code':fields.integer('Computing code', size=3),
         'computing_description':fields.char('Computing description', size=100),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -505,20 +509,23 @@ class bps_hours_per_week(osv.osv):
         for record in reads:
             res.append((record['id'],u'Horas: ' + str(record['hour'])))
         return res
+
 bps_hours_per_week()
 
 class bps_accumulation_labor(osv.osv):
     _description= "Accumulation labor"
     _name= "hr.uy.accumulation.labor"
-    _columns= {
+    _columns={
         'acumulation_code':fields.integer('Accumulation code', size=1),
         'acumulation_description':fields.char('Accumunlation description', size=50),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -540,15 +547,17 @@ bps_accumulation_labor()
 class bps_concept(osv.osv):
     _description= "Concept"
     _name= "hr.uy.bps.concept"
-    _columns= {
+    _columns={
         'concept_code':fields.integer('Concept code', size=3),
         'concept_description':fields.char('Concept description', size=220),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
                 return []
@@ -569,7 +578,7 @@ bps_concept()
 class bps_category_rural(osv.osv):
     _description= "Rural workers"
     _name= "hr.uy.bps.category.rural"
-    _columns= {
+    _columns={
         'worker_code':fields.integer('Worker code', size=3),
         'concept_description':fields.char('Concept description', size= 256),
         'worker_group':fields.char('Group'),
@@ -580,15 +589,17 @@ bps_category_rural()
 class bps_category(osv.osv):
     _description= "Worker category"
     _name= "hr.uy.bps.category"
-    _columns= {
+    _columns={
         'category_code':fields.integer('Code', size=5),
         'category_description':fields.char('Category description', size=20),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -610,11 +621,12 @@ bps_category()
 class bps_category_construction(osv.osv):
     _description= "Contruction workers"
     _name= "hr.uy.bps.category.construction"
-    _columns= {
+    _columns={
         'code':fields.char('Code', size=300),
         'category':fields.char('Category', size=2000),
         'type_of_income':fields.char('Type of income', size=10),
     }
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -629,7 +641,7 @@ bps_category_construction()
 class bps_labor_relations(osv.osv):
     _description= "Labor relations"
     _name= "hr.uy.bps.labor.relations"
-    _columns= {
+    _columns={
         'code_of_labor_relation':fields.integer('Labor relation code', size=3),
         'description_of_labor_relation':fields.char('Labor relation description', size=50),
     }
@@ -639,6 +651,7 @@ class bps_labor_relations(osv.osv):
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -659,15 +672,17 @@ bps_labor_relations()
 class bps_legal_nature(osv.osv):
     _description= "Legal nature"
     _name= "hr.uy.bps.legal.nature"
-    _columns= {
+    _columns={
         'code_of_legal_nature':fields.integer('Legal nature code', size=3),
         'description_of_legal_nature':fields.char('Legal nature description', size=50),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -682,6 +697,7 @@ class bps_legal_nature(osv.osv):
                 description = self.__get_truncated_descr(description)
             res.append((record['id'],u'' + str(record['code_of_legal_nature']) + u' - ' + description))
         return res
+
 bps_legal_nature()
 
 class mtss_working_groups(osv.osv):
@@ -691,11 +707,13 @@ class mtss_working_groups(osv.osv):
         'group':fields.integer('Group', size=3),
         'description':fields.char('Description', size=100),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -716,16 +734,18 @@ mtss_working_groups()
 class mtss_working_subgroups(osv.osv):
     _description= "Working subgroups"
     _name= "hr.uy.mtss.working.subgroups"
-    _columns= {
+    _columns={
             'subgroup':fields.integer('Subgroup', size=3),
             'group':fields.integer('Group', size=3),
             'description':fields.char('Description', size=50),
-                }
+    }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -751,11 +771,13 @@ class hr_uy_category(osv.osv):
         'category_code':fields.integer('Category code', size=5),
         'category_id':fields.char('Category description', size=50),
     }
+
     def __get_truncated_descr(self,description):
         if len(description) > 20:
             return description[0:19] + '...'
         else:
             return description
+
     def name_get(self, cr, uid, ids, context=None):
         if not ids:
             return []
@@ -771,6 +793,7 @@ class hr_uy_category(osv.osv):
 
             res.append((record['id'],u'Category ' + str(record['category_code']) + u' - ' + description))
         return res
+
 hr_uy_category()
 
 class hr_uy_positions(osv.osv):
@@ -781,6 +804,7 @@ class hr_uy_positions(osv.osv):
         'position_id':fields.char('Position description', size=50),
         'mtss_code':fields.integer('MTSS code', size=3),
             }
+
 hr_uy_positions()
 
 class hr_uy_document_type(osv.osv):
@@ -789,11 +813,9 @@ class hr_uy_document_type(osv.osv):
     _columns={
         'document_id':fields.char('Document id'),
         'document_description':fields.char('Document description'),
-                    }
-    _sql_constraints = [
-                 ('document_unique', 'unique(document_id)', 'The document identifiers must be unique')]
-
+    }
+         
+    _sql_constraints = [('document_unique', 'unique(document_id)', 'The document identifiers must be unique')]
 
 hr_uy_document_type()
-
 
