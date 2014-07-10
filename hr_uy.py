@@ -206,7 +206,7 @@ class bps_contributions_and_taxpayer_type(osv.osv):
         'description_of_contribution':fields.char('Description of contribution', size=50),
         'code_type_of_taxpayer':fields.char('Code type of taxpayer', size=3),
         'description_of_type_of_taxpayer':fields.char('Description of taxpayer', size=50),
-    }
+   }
 
     def __get_truncated_descr(self,description):
         if len(description) > 20:
