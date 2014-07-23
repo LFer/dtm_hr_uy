@@ -116,6 +116,7 @@ class hr_employee_uy(osv.osv):
         'mtss_sheet':fields.integer('MTSS Sheet',size=3)
     }
 
+
     _sql_constraints = [
         ('credential_unique', 'unique(credential)', 'There is already an employee with the entered credential number!'),
         ('employee_number_unique', 'unique(employee_number)', 'There is already an employee with the entered employee number!')]
